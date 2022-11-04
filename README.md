@@ -13,7 +13,7 @@ POST
 ```
 
 ### Program list
-| Number | Program Senario | Program Name | ReadyToUse | Description | Author | Last Modify Date |
+| Program Senario | Program Name | ReadyToUse | Description | Author | Last Modify Date |
 |:----------|:----------|:----------|:----------|:----------|:----------|
 | 登入 | appXxx | N | 登入功能 | AndyHou | 2022xxxx |
 | 授權pinCode | appXxx | N | 授權碼(pinCode) | AndyHou | 2022xxxx |
