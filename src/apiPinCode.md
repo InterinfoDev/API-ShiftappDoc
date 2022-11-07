@@ -20,8 +20,7 @@ POST
 Here is a JSON representation of request.
 ```json
 {
-   "requestHeader":{
-      
+   "requestHeader":{  
    },
    "requestBody":{
       "pinCode":"11111111"
