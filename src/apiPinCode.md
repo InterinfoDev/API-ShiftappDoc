@@ -11,11 +11,6 @@ https://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiPinCode
 POST
 ```
 
-### Request body
-| Key | Value | Type | Description |
-|:----------|:-------------|:-----|:------------|
-| pinCode | 97090920 | String | 授權碼 |
-
 ### JSON representation
 Here is a JSON representation of request.
 ```json
