@@ -3,7 +3,7 @@
 
 ### HTTP Request
 ```
-https://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiLogin
+http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiLogin
 ```
 
 ### HTTP Request Mehod
