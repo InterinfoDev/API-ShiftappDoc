@@ -15,9 +15,9 @@ POST
 ### Program list
 | Number | Program Senario | Program Name | ReadyToUse | Description | Author | Last Modify Date |
 |:----------|:----------|:----------|:----------|:----------|:----------|:----------|
-| 01 | 授權pinCode | apiPinCode | N | 授權碼(pinCode) | AndyHou | 20221107 |
-| 02 | 登入 | appXxx | N | 登入功能 | AndyHou | 2022xxxx |
-| 03 | 忘記密碼 | appXxx | N | 找回密碼 | AndyHou | 2022xxxx |
+| 01 | 授權pinCode | apiPinCode | Y | 授權碼(pinCode) | AndyHou | 20221107 |
+| 02 | 登入 | apiLogin | Y | 登入功能 | AndyHou | 20221107 |
+| 03 | 忘記密碼 | apiForgotPassword | Y | 忘記密碼 | AndyHou | 20221114 |
 | 04 | 登出 | appXxx | N | 登出功能 | AndyHou | 2022xxxx |
 | 05 | 排班表--人員&排班資料 | appXxx | N | 畫面預設人員和排班 | UserName | 2022xxxx |
 | 06 | 排班表--篩選下拉 | appXxx | N | 地區分店&職稱&職等 | UserName | 2022xxxx |
