@@ -49,6 +49,7 @@ Here is a JSON representation of request.
       "result":true,
       "departmentOption":[
          {
+            "companyId": "TW",
             "depFullName":"英特內股份有限公司",
             "depNumber":1
          }
