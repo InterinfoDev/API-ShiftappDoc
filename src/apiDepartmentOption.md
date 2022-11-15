@@ -60,7 +60,7 @@ Here is a JSON representation of request.
 ```
 
 ### HTTP Response when No Data
-無資料屬於正常情況
+無資料屬於不正常情況
 ```json
 {
     "responseHeader": {
