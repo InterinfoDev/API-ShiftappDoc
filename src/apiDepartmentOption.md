@@ -47,6 +47,7 @@ Here is a JSON representation of request.
    },
    "responseBody":{
       "result":true,
+      "message": "查詢成功",
       "departmentOption":[
          {
             "companyId": "TW",
