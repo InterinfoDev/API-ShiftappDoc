@@ -25,7 +25,8 @@ Here is a JSON representation of request.
   },
   "requestBody": {
     "companyId": "TW",
-    "depNumber": 592
+    "depNumber": 1 ,
+    "common": null
   },
   "uid":"98599308101484732326",
   "right":"51341911904173543336756162544864820"
@@ -54,18 +55,20 @@ Here is a JSON representation of request.
       "message":"查詢成功",
       "workClassOption":[
          {
-            "classCode":"00",
-            "className":"通用中和0800",
-            "startTime":"0800",
-            "endTime":"1700",
-            "workHour":8.0
-         },
-         {
             "classCode":"01",
             "className":"通用班(8-17)",
             "startTime":"0830",
             "endTime":"1730",
-            "workHour":8.0
+            "workHour":8.0,
+            "common":true
+         },
+         {
+            "classCode":"02-1",
+            "className":"(08-12)",
+            "startTime":"0800",
+            "endTime":"1200",
+            "workHour":4.0,
+            "common":false
          }
       ]
    }
