@@ -26,7 +26,7 @@ Here is a JSON representation of request.
   "requestBody": {
     "companyId": "TW",
     "depNumber": 1 ,
-    "common": null
+    "favorite": null
   },
   "uid":"98599308101484732326",
   "right":"51341911904173543336756162544864820"
@@ -60,7 +60,7 @@ Here is a JSON representation of request.
             "startTime":"0830",
             "endTime":"1730",
             "workHour":8.0,
-            "common":true
+            "favorite":true
          },
          {
             "classCode":"02-1",
@@ -68,7 +68,7 @@ Here is a JSON representation of request.
             "startTime":"0800",
             "endTime":"1200",
             "workHour":4.0,
-            "common":false
+            "favorite":false
          }
       ]
    }
