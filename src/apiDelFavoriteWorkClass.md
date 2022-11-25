@@ -1,9 +1,9 @@
-# apiDelCommonWorkClass
+# apiDelFavoriteWorkClass
 刪除常用班別
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiDelCommonWorkClass
+http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiDelFavoriteWorkClass
 ```
 
 ### HTTP Request Mehod
