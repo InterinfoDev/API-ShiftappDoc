@@ -1,9 +1,9 @@
-# apiAddCommonWorkClass
+# apiAddFavoriteWorkClass
 新增常用班別
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiAddCommonWorkClass
+http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiAddFavoriteWorkClass
 ```
 
 ### HTTP Request Mehod
