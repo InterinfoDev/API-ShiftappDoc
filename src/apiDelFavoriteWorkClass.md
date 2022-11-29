@@ -42,9 +42,9 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| companyId | TW | String | 班別代碼 | Y | n/a |
+| companyId | TW | String | 公司別代碼 | Y | n/a |
 | depNumber | 17 | Integer | 部門代碼 | Y | n/a |
-| classCode | 01 | String | 公司別代碼 | Y | n/a |
+| classCode | 01 | String | 班別代碼 | Y | n/a |
 
 ### HTTP Response when Successful
 ```json
