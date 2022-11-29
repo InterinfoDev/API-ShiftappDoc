@@ -40,6 +40,7 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
+| content | 71測試第二次 | String | 備註內容 | Y | n/a |
 
 ### HTTP Response when Successful
 ```json
