@@ -28,13 +28,16 @@ POST
 | 11 | 排班表--匯出 | appXxx | N | 匯出功能 | UserName | 2022xxxx |
 | 12 | 排班表--送出 | appXxx | N | 異動資料庫 | UserName | 2022xxxx |
 | 13 | 排班表--通知 | appXxx | N | 小鈴鐺通知 | UserName | 2022xxxx |
-| 14 | 夥伴管理--篩選下拉 | appXxx | N | 單位&職等&職稱&職位&身分別 | UserName | 2022xxxx |
-| 15 | 夥伴管理--人員資料 | appXxx | N | 預帶出人員資料列表 | UserName | 2022xxxx | 
-| 16 | 夥伴管理:夥伴清單-人員詳細資料 | appXxx | N | 人員詳細列表 | UserName | 2022xxxx |
-| 17 | 夥伴管理:夥伴清單-單月出勤 | appXxx | N | 依年月下拉帶出查詢單月出勤資料 | UserName | 2022xxxx |
-| 18 | 夥伴管理:夥伴清單-加班&休假 | appXxx | N | 依年月下拉帶出查詢加班&休假資料 | UserName | 2022xxxx |
-| 19 | 夥伴管理:夥伴清單-請假 | appXxx | N | 依年月下拉帶出查詢請假資料 | UserName | 2022xxxx |
-| 20 | 夥伴管理:夥伴清單-出差 | appXxx | N | 依年月下拉帶出查詢出差資料 | UserName | 2022xxxx |
-| 21 | 統計報表--篩選下拉 | appXxx | N | 單位&職等&職稱&職位 | UserName | 2022xxxx |
-| 22 | 統計報表--查詢畫面 | appXxx | N | 查詢人數統計 | UserName | 2022xxxx |
+| 14 | 排班表--備註查詢 | apiNote | Y | 班別備註 | Kelvin | 20221130 |
+| 15 | 排班表--備註新增 | apiAddNote | Y | 班別備註 | Richard | 20221130 |
+| 16 | 排班表--備註刪除 | apiDelNote | Y | 班別備註 | Kelvin | 20221130 |
+| 17 | 夥伴管理--篩選下拉 | appXxx | N | 單位&職等&職稱&職位&身分別 | UserName | 2022xxxx |
+| 18 | 夥伴管理--人員資料 | appXxx | N | 預帶出人員資料列表 | UserName | 2022xxxx | 
+| 19 | 夥伴管理:夥伴清單-人員詳細資料 | appXxx | N | 人員詳細列表 | UserName | 2022xxxx |
+| 20 | 夥伴管理:夥伴清單-單月出勤 | appXxx | N | 依年月下拉帶出查詢單月出勤資料 | UserName | 2022xxxx |
+| 21 | 夥伴管理:夥伴清單-加班&休假 | appXxx | N | 依年月下拉帶出查詢加班&休假資料 | UserName | 2022xxxx |
+| 22 | 夥伴管理:夥伴清單-請假 | appXxx | N | 依年月下拉帶出查詢請假資料 | UserName | 2022xxxx |
+| 23 | 夥伴管理:夥伴清單-出差 | appXxx | N | 依年月下拉帶出查詢出差資料 | UserName | 2022xxxx |
+| 24 | 統計報表--篩選下拉 | appXxx | N | 單位&職等&職稱&職位 | UserName | 2022xxxx |
+| 25 | 統計報表--查詢畫面 | appXxx | N | 查詢人數統計 | UserName | 2022xxxx |
 
