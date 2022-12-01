@@ -52,6 +52,7 @@ Here is a JSON representation of request.
    "responseBody":{
       "result":true,
       "message":"新增成功"
+      "noteId":"deee5b25-b1b4-4b7b-a176-8477f19b4e76"
    }
 }
 ```
