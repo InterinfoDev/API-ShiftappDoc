@@ -45,39 +45,38 @@ Here is a JSON representation of request.
 ### HTTP Response when Successful
 ```json
 {
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
-      "result":true,
-      "message":"查詢成功",
-      "employee":{
-         "employeeId":"0169",
-         "empFullName":"陳Ｏ玲",
-         "empFullEname":"NEW0169",
-         "photo":"url",
-         "phone":"0987xxxxxx",
-         "address":"新北市中和區建八路16號",
-         "startDate":"19891211",
-         "department":{
-            "depFullName":"英特內股份有限公司",
-            "depNumber":1,
-            "depCode":"99999"
-         },
-         "possie":{
-            "possieCode":"6111",
-            "possieName":"總處秘書"
-         },
-         "emergencyContactName":"林Ｏ明",
-         "emergencyContactPhone":"0932123456"
-      },
-      "chief":{
-         "employeeId":"0001",
-         "empFullName":"王Ｏ明",
-         "empFullEname":""
-      }
-   }
+    "responseHeader": {
+        "resultMessage": "執行成功",
+        "resultCode": "200"
+    },
+    "responseBody": {
+        "result": true,
+        "message": "查詢成功",
+        "employee": {
+            "employeeId": "0169",
+            "empFullName": "關Ｏ玲",
+            "empFullEname": "NEW0169",
+            "photo": "url",
+            "depNumber": 1,
+            "phone": "0987XXXXXXXXXXXXX",
+            "address": "新北市中和區建八路16號",
+            "startDate": "19891211",
+            "placeCode": "TW3",
+            "depFullName": "英特內股份有限公司",
+            "depCode": "99999",
+            "positionName": "",
+            "possieName": "總處秘書",
+            "placeName": "桃園",
+            "placeEName": "",
+            "emergencyContactPhone": "0932123456",
+            "emergencyContactName": "林Ｏ明"
+        },
+        "chief": {
+            "employeeId": "BBB01",
+            "empFullName": "王Ｏ明",
+            "empFullEname": ""
+        }
+    }
 }
 ```
 
