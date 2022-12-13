@@ -3,3 +3,67 @@
 
 | FieldName | Description |
 |:----------|:-------------|
+
+| 員工編號 | employeeId
+
+
+| 年月 | yymm |
+| 開始日期 | startDate |
+| 結束日期 | endDate |
+| 部門代號(暗碼) | depNumber |
+| 部門代號(明碼) | depCode |
+| 職稱代號 | positionCode |
+| 備註/說明 | note |
+| 裝置代碼 | deviceId |
+| 專案 | project |
+| 登出日期 | logoutDate |
+| 登出時間 | logoutTime |
+| 備註代碼 | noteId |
+| 內容 | content |
+| 公司簡稱 | companySimpleName |
+| 支援數量 | supportCount |
+| 部門主管 | depChief |
+| 職稱名稱 | possieName |
+| 中文姓名 | empFullName |
+| 緊急聯絡人 | EmergencyContactName |
+| 地址 | address |
+| 開始時間 | startTime |
+| 工作地點名稱 | placeName |
+| 職等代號 | gradeCode |
+| 職稱代號 | possieCode |
+| 結果 | result |
+| 職等選項 | gradeOption |
+| 使用者類別選項 | userTypeOption |
+| 文件 | file |
+| 伺服器網址 | domain |
+| 語言 | language |
+| 公司別 | companyId |
+| DB.ID欄位/UUID | id |
+| 日期 | date |
+| pinCode | pinCode |
+| 工作地點代號 | placeCode |
+| 部門主管 | depChief |
+| 職位編號 | positionId |
+| 登入者 | uid |
+| 員工權限 | employeeRight |
+| 公司權限 | companyRight |
+| 班別代碼 | classCode |
+| 郵件 | mail |
+| 密碼 | pwd |
+| 常用 | favorite |
+| 職稱名稱 | positionName |
+| 休假天數 | vacationCount |
+| 部門全名 | depFullName |
+| 照片 | photo |
+| 英文姓名 | empFullEname |
+| 緊急連絡電話 | EmergencyContactPhone |
+| 直屬主管 | directChief |
+| 結束時間 | endTime |
+| 工作地點英文名稱 | placeEName |
+| 職等名稱 | gradeName |
+| 訊息 | message |
+| 職稱設定選項 | possieSetOption |
+| 地點選項 | placeOption |
+| 工作類別選項 | WorkClassOption
+
+
