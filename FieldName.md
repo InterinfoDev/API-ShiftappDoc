@@ -3,10 +3,7 @@
 
 | FieldName | Description |
 |:----------|:-------------|
-
-| 員工編號 | employeeId
-
-
+| 員工編號 | employeeId |
 | 年月 | yymm |
 | 開始日期 | startDate |
 | 結束日期 | endDate |
@@ -64,6 +61,4 @@
 | 訊息 | message |
 | 職稱設定選項 | possieSetOption |
 | 地點選項 | placeOption |
-| 工作類別選項 | WorkClassOption
-
-
+| 工作類別選項 | WorkClassOption |
