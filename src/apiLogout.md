@@ -41,6 +41,15 @@ Here is a JSON representation of request.
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| logoutDate | 登出日期 |
+| logoutTime | 登出時間 |
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
 ### HTTP Response when Successful
 ```json
 {
