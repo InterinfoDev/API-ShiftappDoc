@@ -34,6 +34,17 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | pinCode | 97090920 | String | 授權碼 | Y | n/a |
 
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| companyFullName | 公司中文名稱 |
+| file | 文件/檔案 |
+| domain | 伺服器網址 |
+| language | 語言 |
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
 ### HTTP Response when Successful
 ```json
 {
