@@ -46,6 +46,13 @@ Here is a JSON representation of request.
 | depNumber | 17 | Integer | 部門代碼 | Y | n/a |
 | classCode | 01 | String | 班別代碼 | Y | n/a |
 
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
 ### HTTP Response when Successful
 ```json
 {
