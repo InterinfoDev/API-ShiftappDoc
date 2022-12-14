@@ -1,9 +1,9 @@
-# apiAddFavoriteWorkClass
+# apiInsertFavoriteWorkClass
 新增常用班別
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiAddFavoriteWorkClass
+http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiInsertFavoriteWorkClass
 ```
 
 ### HTTP Request Mehod
@@ -54,32 +54,20 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "result":true,
       "message":"新增成功"
    }
 }
 ```
 
 ### HTTP Response when No Data
-```json
-{
-    "responseHeader": {
-        "resultMessage": "執行成功",
-        "resultCode": "200"
-    },
-    "responseBody": {
-        "result": false,
-        "message": "新增失敗"
-    }
-}
-```
+此程式不會有查無資料發生
 
 ### HTTP Response when Failed
 ```json
 {
     "responseHeader": {
         "resultMessage": "xxxxx",
-        "resultCode": "5xx"
+        "resultCode": "500"
     },
     "responseBody": {
     }
