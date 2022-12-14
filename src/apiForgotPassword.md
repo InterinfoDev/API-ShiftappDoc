@@ -36,6 +36,15 @@ Here is a JSON representation of request.
 | uid | admin | String | 使用者帳號 | Y | n/a |
 | mail | admin@interinfo.com.tw | String | 使用者信箱 | Y | n/a |
 
+
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
+
 ### HTTP Response when Successful
 ```json
 {
