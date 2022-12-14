@@ -1,9 +1,9 @@
-# apiDelNote
+# apiDeleteNote
 刪除備註
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiDelNote
+http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiDeleteNote
 ```
 
 ### HTTP Request Mehod
@@ -50,33 +50,21 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "result":true,
       "message":"刪除成功"
    }
 }
 ```
 
 ### HTTP Response when No Data
-無資料屬於正常情況
-```json
-{
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
-      "result":false,
-      "message":"查無備註資料"
-   }
-}
-```
+此程式不會有查無資料發生
+
 
 ### HTTP Response when Failed
 ```json
 {
     "responseHeader": {
         "resultMessage": "xxxxx",
-        "resultCode": "5xx"
+        "resultCode": "500"
     },
     "responseBody": {
     }
