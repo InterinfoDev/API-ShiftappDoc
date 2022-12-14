@@ -45,9 +45,9 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| 結果訊息 | resultMessage |
-| 結果代號 | resultCode |
-| 訊息 | message |
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
 
 ### HTTP Response when Successful
 ```json
