@@ -50,7 +50,6 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "result":true,
       "message":"查詢成功",
       "gradeOption":[
          {
