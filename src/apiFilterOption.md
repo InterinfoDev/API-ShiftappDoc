@@ -42,6 +42,26 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | companyId | TW | String | 公司別代碼 | Y | n/a |
 
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| gradeCode | 職等代號 |
+| gradeName | 職等名稱 |
+| possieCode | 職稱代號 |
+| possieName | 職稱名稱 |
+| typeCode | 類型代碼 |
+| typeName | 類型中文名稱 |
+| typeEName | 類型英文名稱 |
+| placeCode | 地點代碼 |
+| placeName | 地點中文名稱 |
+| placeEName | 地點英文名稱 |
+| possieCode | 職稱代號 |
+| possieName | 職稱名稱 |
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
+
 ### HTTP Response when Successful
 ```json
 {
