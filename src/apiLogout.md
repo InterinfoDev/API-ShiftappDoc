@@ -49,7 +49,6 @@ Here is a JSON representation of request.
     "resultCode": "200"
   },
   "responseBody": {
-    "result": true,
     "message": "登出成功",
     "logoutDate": "20221122",
     "logoutTime": "114943"
@@ -58,28 +57,14 @@ Here is a JSON representation of request.
 ```
 
 ### HTTP Response when No Data
-無資料屬於不正常情況
-```json
-{
-    "responseHeader": {
-        "resultMessage": "執行成功",
-        "resultCode": "200"
-    },
-    "responseBody": {
-        "result": false,
-        "message": "登出失敗"
-        "logoutDate": "20221122",
-        "logoutTime": "114943"
-    }
-}
-```
+此程式不會有查無資料發生
 
 ### HTTP Response when Failed
 ```json
 {
     "responseHeader": {
         "resultMessage": "xxxxx",
-        "resultCode": "5xx"
+        "resultCode": "500"
     },
     "responseBody": {
     }
