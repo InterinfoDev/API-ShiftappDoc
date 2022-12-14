@@ -66,7 +66,7 @@ Here is a JSON representation of request.
             "companyId":"KS",
             "companySimpleName":"72英特內(昆山)",
             "departmentOption":[
-               {
+               { 
                   "depFullName":"L1線A班",
                   "depNumber":5,
                   "depCode":"14121"
