@@ -1,9 +1,9 @@
-# apiAddNote
+# apiInsertNote
 新增備註
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiAddNote
+http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiInsertNote
 ```
 
 ### HTTP Request Mehod
@@ -50,7 +50,6 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "result":true,
       "message":"新增成功"
       "noteId":"deee5b25-b1b4-4b7b-a176-8477f19b4e76"
    }
@@ -62,12 +61,14 @@ Here is a JSON representation of request.
 {
     "responseHeader": {
         "resultMessage": "xxxxx",
-        "resultCode": "5xx"
+        "resultCode": "500"
     },
     "responseBody": {
     }
 }
 ```
+### HTTP Response when No Data
+此程式不會有查無資料發生
 
 ### HTTP Response when Exception
 ```json
