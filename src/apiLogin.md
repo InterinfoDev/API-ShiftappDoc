@@ -36,6 +36,21 @@ Here is a JSON representation of request.
 | uid | admin | String | 使用者帳號 | Y | n/a |
 | pwd | admin | String | 使用者密碼 | Y | n/a |
 
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| companyId | 公司別 |
+| email | 信箱帳號 |
+| empFullName | 中文姓名 |
+| empFullEname | 英文姓名 |
+| photo | 照片 |
+| depNumber | 部門代號(暗碼) |
+| depFullName | 部門全名 |
+| positionName | 職稱名稱 |
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
 ### HTTP Response when Successful
 ```json
 {
