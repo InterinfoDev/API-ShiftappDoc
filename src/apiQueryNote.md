@@ -48,7 +48,6 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "result":true,
       "message":"查詢成功",
       "noteList":[
          {
@@ -77,7 +76,6 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "result":true,
       "message":"查無資料",
       "noteList":[]
    }
@@ -89,7 +87,7 @@ Here is a JSON representation of request.
 {
     "responseHeader": {
         "resultMessage": "xxxxx",
-        "resultCode": "5xx"
+        "resultCode": "500"
     },
     "responseBody": {
     }
