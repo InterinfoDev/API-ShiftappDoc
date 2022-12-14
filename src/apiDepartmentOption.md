@@ -79,26 +79,14 @@ Here is a JSON representation of request.
 ```
 
 ### HTTP Response when No Data
-無資料屬於不正常情況
-```json
-{
-    "responseHeader": {
-        "resultMessage": "執行成功",
-        "resultCode": "200"
-    },
-    "responseBody": {
-        "result": false,
-        "message": "查無資料"
-    }
-}
-```
+此程式不會有查無資料發生
 
 ### HTTP Response when Failed
 ```json
 {
     "responseHeader": {
         "resultMessage": "xxxxx",
-        "resultCode": "5xx"
+        "resultCode": "500"
     },
     "responseBody": {
     }
