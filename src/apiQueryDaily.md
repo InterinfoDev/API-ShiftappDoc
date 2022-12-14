@@ -44,6 +44,22 @@ Here is a JSON representation of request.
 | companyId | TW | apiLogin所取得的companyId | Y | n/a |
 | depNumber | 528 | Integer | apiFilterOption所選的部門 | Y | n/a |
 
+
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| date | 日期 |
+| note | 備註/說明 |
+| supportCount | 支援數量 |
+| vacationCount | 休假天數 |
+| employeeId | 員工編號 |
+| empFullName | 中文姓名 |
+| depFullName | 部門全名 |
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
+
 ### HTTP Response when Successful
 ```json
 {
