@@ -40,6 +40,19 @@ Here is a JSON representation of request.
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| companyId | 公司別 |
+| companySimpleName | 公司簡稱 |
+| depNumber | 部門代號(暗碼) |
+| depCode | 部門代號(明碼) |
+
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
+
 ### HTTP Response when Successful
 ```json
 {
