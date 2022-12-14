@@ -42,7 +42,6 @@ Here is a JSON representation of request.
         "resultCode": "200"
     },
     "responseBody": {
-        "result": true,
         "companyFullName": "英特內軟體",
         "file": "hrm8w.pkg",
         "domain": "http://www.interinfo.com.tw",
@@ -72,7 +71,7 @@ Here is a JSON representation of request.
 {
     "responseHeader": {
         "resultMessage": "xxxxx",
-        "resultCode": "5xx"
+        "resultCode": "500"
     },
     "responseBody": {
     }
