@@ -42,6 +42,14 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | content | 71測試第二次 | String | 備註內容 | Y | n/a |
 
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
+
 ### HTTP Response when Successful
 ```json
 {
