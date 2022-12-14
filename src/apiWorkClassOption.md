@@ -43,6 +43,19 @@ Here is a JSON representation of request.
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| classCode | 班別代碼 |
+| workHour | 工作時數 |
+| startTime | 開始時間 |
+| favorite | 常用 |
+| endTime | 結束時間 |
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
+
 ### HTTP Response when Successful
 ```json
 {
