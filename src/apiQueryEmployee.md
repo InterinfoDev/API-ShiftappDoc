@@ -42,6 +42,30 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | employeeId | 0169 | 查詢的員工編號 | Y | n/a |
 
+
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| employeeId | 員工編號 |
+| empFullName | 中文姓名 |
+| empFullEname | 英文姓名 |
+| photo | 照片 |
+| depNumber | 部門代號(暗碼) |
+| phone | 連絡電話 |
+| address | 地址 |
+| startDate | 開始日期 |
+| placeCode | 工作地點代號 |
+| depFullName | 部門全名 |
+| depCode | 部門代號(明碼) |
+| positionName | 職稱名稱 |
+| placeName | 地點中文名稱 |
+| placeEName | 工作地點英文名稱 |
+| emergencyContactPhone | 緊急連絡電話 |
+| emergencyContactName | 緊急連絡人姓名 |
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+
 ### HTTP Response when Successful
 ```json
 {
