@@ -42,6 +42,13 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | noteId | 8bab70de-d6ca-4570-8ea8-07f3bcbe9da8 | String | 備註的KEY | Y | n/a |
 
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| 結果訊息 | resultMessage |
+| 結果代號 | resultCode |
+| 訊息 | message |
+
 ### HTTP Response when Successful
 ```json
 {
