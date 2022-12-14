@@ -44,32 +44,20 @@ Here is a JSON representation of request.
         "resultCode": "200"
     },
     "responseBody": {
-        "result": true,
         "message": "寄信成功"
     }
 }
 ```
 
 ### HTTP Response when No Data
-```json
-{
-    "responseHeader": {
-        "resultMessage": "執行成功",
-        "resultCode": "200"
-    },
-    "responseBody": {
-        "result": false,
-        "message": "帳號或信箱錯誤 請重新輸入"
-    }
-}
-```
+此程式不會有查無資料發生
 
 ### HTTP Response when Failed
 ```json
 {
     "responseHeader": {
         "resultMessage": "xxxxx",
-        "resultCode": "5xx"
+        "resultCode": "500"
     },
     "responseBody": {
     }
