@@ -74,6 +74,7 @@
 | companyFullName | 公司中文名稱 |
 | className | 班別名稱 |
 | workHour | 工作時數 |
+| workingItem | 辦理事項 |
 | resultMessage | 結果訊息 |
 | resultCode | 結果代號 |
 | message | 訊息 |
