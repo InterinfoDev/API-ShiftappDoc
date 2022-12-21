@@ -66,14 +66,11 @@ Here is a JSON representation of request.
 無資料屬於正常情況
 ```json
 {
-    "responseHeader": {
-        "resultMessage": "執行成功",
-        "resultCode": "200"
+   "responseHeader": {
+        "resultMessage": "授權碼錯誤 請重新輸入",
+        "resultCode": "500"
     },
-    "responseBody": {
-        "result": false,
-        "message": "授權碼錯誤 請重新輸入"
-    }
+    "responseBody": {}
 }
 ```
 
