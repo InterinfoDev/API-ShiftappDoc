@@ -17,6 +17,31 @@ POST
 | uid | 98599308101484732326 | String | 需透過apiLogin取得
 | right | 51341911904173543336756162544864820 | String | 需透過apiLogin取得 |
 
+### Properties
+| Property | Type | Description |
+|:---------|:-----|:------------|
+| requestHeader | Object | 要求本文 |
+| requestBody | Object | 要求本文 |
+
+### requestBody Properties
+| Key | Value | Type | Description | Required | Format |
+|:----------|:-------------|:-----|:------------|:------------|:------------|
+| travelYM | 202203 | String | 年月 | Y | n/a |
+
+### requestBody FieldName
+| FieldName | Description |
+|:----------|:-------------|
+| resultMessage | 結果訊息 |
+| resultCode | 結果代號 |
+| message | 訊息 |
+| startDate | 開始日期 |
+| startTime | 開始時間 |
+| endDate | 結束日期 |
+| endTime | 結束時間 |
+| place | 	工作地點名稱 |
+| workingItem | 辦理事項 |
+| note | 備註/說明 |
+
 ### JSON representation
 Here is a JSON representation of request.
 ```json
@@ -59,32 +84,6 @@ Here is a JSON representation of request.
   }
 }
 ```
-
-### Properties
-| Property | Type | Description |
-|:---------|:-----|:------------|
-| requestHeader | Object | 要求本文 |
-| requestBody | Object | 要求本文 |
-
-### requestBody Properties
-| Key | Value | Type | Description | Required | Format |
-|:----------|:-------------|:-----|:------------|:------------|:------------|
-| yymm | 202203 | String | 年月 | Y | n/a |
-
-### requestBody FieldName
-| FieldName | Description |
-|:----------|:-------------|
-| resultMessage | 結果訊息 |
-| resultCode | 結果代號 |
-| message | 訊息 |
-| startDate | 開始日期 |
-| startTime | 開始時間 |
-| endDate | 結束日期 |
-| endTime | 結束時間 |
-| place | 	工作地點名稱 |
-| workingItem | 辦理事項 |
-| note | 備註/說明 |
-
 ### HTTP Response when Successful
 ```json
 {
