@@ -46,6 +46,19 @@ POST
 Here is a JSON representation of request.
 ```json
 {
+   "requestHeader":{
+   },
+   "requestBody":{
+      "travelYM":"202203"
+   },
+   "uid":"98599308101484732326",
+   "right":"51341911904173543336756162544864820"
+}
+```
+
+### HTTP Response when Successful
+```json
+{
   "responseHeader": {
     "resultMessage": "執行成功",
     "resultCode": "200"
