@@ -70,15 +70,6 @@ Here is a JSON representation of request.
         "place": "台北南港",
         "workingItem": "外訓",
         "note": "AndyHou測試出差單備註"
-      },
-      {
-        "startDate": "20220304",
-        "endDate": "20220307",
-        "startTime": "0800",
-        "endTime": "1700",
-        "place": "台北南港",
-        "workingItem": "外訓",
-        "note": "AndyHou測試出差單備註"
       }
     ]
   }
