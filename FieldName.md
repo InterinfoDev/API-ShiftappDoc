@@ -61,7 +61,7 @@
 | placeEName | 工作地點英文名稱 |
 | gradeName | 職等名稱 |
 | message | 訊息 |
-| possieSetOption | 職稱設定選項 |
+| possieOption | 職稱設定選項 |
 | placeOption | 地點選項 |
 | WorkClassOption | 工作類別選項 |
 | typeCode | 類型代碼 |
