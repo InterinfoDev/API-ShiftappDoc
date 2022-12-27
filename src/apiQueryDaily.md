@@ -48,6 +48,8 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
+| startDate | 考勤起始日期 |
+| endDate | 考勤結束日期 |
 | date | 日期 |
 | note | 備註/說明 |
 | supportCount | 支援數量 |
@@ -63,61 +65,65 @@ Here is a JSON representation of request.
 ### HTTP Response when Successful
 ```json
 {
-    "responseHeader": {
-        "resultMessage": "執行成功",
-        "resultCode": "200"
-    },
-    "responseBody": {
-        "message": "查詢成功",
-        "dailyInfo": [
-            {
-                "date": "20221201",
-                "note": "kevin假資料測試",
-                "supportCount": 3,
-                "vacationCount": 1,
-                "supportDetail": [
-                    {
-                        "employeeId": "0060",
-                        "empFullName": "歐O庭",
-                        "depFullName": "顧問處"
-                    },
-                    {
-                        "employeeId": "0310",
-                        "empFullName": "卓O伶",
-                        "depFullName": "顧問處"
-                    },
-                    {
-                        "employeeId": "1090",
-                        "empFullName": "蔡O凌",
-                        "depFullName": "顧問處"
-                    }
-                ]
-            },
-            {
-                "date": "20221202",
-                "note": "kevin假資料測試",
-                "supportCount": 3,
-                "vacationCount": 1,
-                "supportDetail": [
-                    {
-                        "employeeId": "0060",
-                        "empFullName": "歐O庭",
-                        "depFullName": "顧問處"
-                    },
-                    {
-                        "employeeId": "0310",
-                        "empFullName": "卓O伶",
-                        "depFullName": "顧問處"
-                    },
-                    {
-                        "employeeId": "1090",
-                        "empFullName": "蔡O凌",
-                        "depFullName": "顧問處"
-                    }
-                ]
-            }
-        ]
-    }
+   "responseHeader":{
+      "resultMessage":"執行成功",
+      "resultCode":"200"
+   },
+   "responseBody":{
+      "message":"查詢成功",
+      "attend":{
+         "startDate":"20221201",
+         "endDate":"20221231"
+      },
+      "dailyInfo":[
+         {
+            "date":"20221201",
+            "note":"kevin假資料測試",
+            "supportCount":3,
+            "vacationCount":1,
+            "supportDetail":[
+               {
+                  "employeeId":"0060",
+                  "empFullName":"歐O庭",
+                  "depFullName":"顧問處"
+               },
+               {
+                  "employeeId":"0310",
+                  "empFullName":"卓O伶",
+                  "depFullName":"顧問處"
+               },
+               {
+                  "employeeId":"1090",
+                  "empFullName":"蔡O凌",
+                  "depFullName":"顧問處"
+               }
+            ]
+         },
+         {
+            "date":"20221202",
+            "note":"kevin假資料測試",
+            "supportCount":3,
+            "vacationCount":1,
+            "supportDetail":[
+               {
+                  "employeeId":"0060",
+                  "empFullName":"歐O庭",
+                  "depFullName":"顧問處"
+               },
+               {
+                  "employeeId":"0310",
+                  "empFullName":"卓O伶",
+                  "depFullName":"顧問處"
+               },
+               {
+                  "employeeId":"1090",
+                  "empFullName":"蔡O凌",
+                  "depFullName":"顧問處"
+               }
+            ]
+         }
+      ]
+   }
 }
 ```
 
