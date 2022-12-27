@@ -77,7 +77,7 @@ Here is a JSON representation of request.
             "gradeName":"1"
          }
       ],
-      "possieSetOption":[
+      "possieOption":[
          {
             "possieCode":"B-FT",
             "possieName":"外場-正職人員"
