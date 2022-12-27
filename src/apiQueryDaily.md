@@ -25,7 +25,8 @@ Here is a JSON representation of request.
    },
    "requestBody":{
       "companyId":"TW",
-      "depNumber":528
+      "depNumber":528,
+      "shiftYM":"202212"
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
@@ -41,9 +42,9 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| companyId | TW | apiLogin所取得的companyId | Y | n/a |
+| companyId | TW | String | apiLogin所取得的companyId | Y | n/a |
 | depNumber | 528 | Integer | apiFilterOption所選的部門 | Y | n/a |
-
+| shiftYM | 202212 | String | apiFilterOption所選的部門 | Y | YYYYmm |
 
 ### requestBody FieldName
 | FieldName | Description |
