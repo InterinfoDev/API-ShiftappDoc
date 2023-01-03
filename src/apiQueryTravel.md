@@ -26,6 +26,7 @@ POST
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
+| employeeId | 0169 | String | 員工編號 | Y | n/a |
 | travelYM | 202203 | String | 年月 | Y | n/a |
 
 ### requestBody FieldName
@@ -49,6 +50,7 @@ Here is a JSON representation of request.
    "requestHeader":{
    },
    "requestBody":{
+      "employeeId":"0169",
       "travelYM":"202203"
    },
    "uid":"98599308101484732326",
