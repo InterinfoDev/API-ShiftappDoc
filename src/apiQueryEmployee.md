@@ -62,6 +62,7 @@ Here is a JSON representation of request.
 | placeEName | 工作地點英文名稱 |
 | emergencyContactPhone | 緊急連絡電話 |
 | emergencyContactName | 緊急連絡人姓名 |
+| note | 人員備註 |
 | resultMessage | 結果訊息 |
 | resultCode | 結果代號 |
 | message | 訊息 |
