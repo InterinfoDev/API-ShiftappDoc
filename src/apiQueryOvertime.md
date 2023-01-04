@@ -48,7 +48,7 @@ Here is a JSON representation of request.
    },
    "requestBody":{
       "employeeId":"admin",
-      "travelYM":"202201"
+      "overtimeYM":"202201"
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
