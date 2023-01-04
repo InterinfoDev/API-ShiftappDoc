@@ -26,8 +26,8 @@ POST
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| employeeId | 0169 | String | 員工編號 | Y | n/a |
-| overtimeYM | 202203 | String | 查詢年月 | Y | n/a |
+| employeeId | admin | String | 員工編號 | Y | n/a |
+| overtimeYM | 202201 | String | 查詢年月 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
@@ -47,8 +47,8 @@ Here is a JSON representation of request.
    "requestHeader":{
    },
    "requestBody":{
-      "employeeId":"0169",
-      "travelYM":"202203"
+      "employeeId":"admin",
+      "travelYM":"202201"
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
