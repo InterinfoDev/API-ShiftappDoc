@@ -1,5 +1,5 @@
 # apiQueryAttend
-夥伴列表-取得考勤資料
+夥伴查詢-考勤資訊
 
 ### HTTP Request
 ```
@@ -49,12 +49,11 @@ Here is a JSON representation of request.
 |:----------|:-------------|
 | employeeId | 員工編號 |
 | attendYM | 考勤年月 |
-| attendYM | 出勤年月 |
-| attendDays | 出勤天數 |
-| attendTotalHours | 實際出勤總時數 |
-| attendTotalScheduledHours | 總預排出勤時數 |
-| scheduledAttendHours | 預排出勤時數 |
-| actualAttendHours | 實際出勤時數 |
+| attendDay | 出勤天數 |
+| actualTotalHour | 實際出勤總時數 |
+| scheduledTotalHour | 總預排出勤時數 |
+| scheduledHour | 預排出勤時數 |
+| actualHour | 實際出勤時數 |
 | date |日期 |
 | week | 星期 |
 | resultMessage | 結果訊息 |
@@ -72,195 +71,164 @@ Here is a JSON representation of request.
    "responseBody":{
       "message":"查詢成功",
       "attendYM":"202212",
-      "attendDays":"31",
-      "attendTotalHours":"18",
-      "attendTotalScheduledHours":"220",
+      "attendDay":1.8,
+      "actualTotalHour":18.0,
+      "scheduledTotalHour":220.0,
       "attendanceList":[
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221205",
-            "week":"(一)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221205"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221206",
-            "week":"(二)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221206"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221207",
-            "week":"(三)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221207"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221208",
-            "week":"(四)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221208"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221209",
-            "week":"(五)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221209"
          },
          {
-            "scheduledAttend":"0.0",
-            "actualAttend":"0.0",
-            "date":"20221210",
-            "week":"(六)"
+            "scheduledHour":0.0,
+            "actualHour":0.0,
+            "date":"20221210"
          },
          {
-            "scheduledAttend":"0.0",
-            "actualAttend":"0.0",
-            "date":"20221211",
-            "week":"(日)"
+            "scheduledHour":0.0,
+            "actualHour":0.0,
+            "date":"20221211"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221212",
-            "week":"(一)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221212"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221213",
-            "week":"(二)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221213"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221214",
-            "week":"(三)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221214"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221215",
-            "week":"(四)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221215"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221216",
-            "week":"(五)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221216"
          },
          {
-            "scheduledAttend":"0.0",
-            "actualAttend":"0.0",
-            "date":"20221217",
-            "week":"(六)"
+            "scheduledHour":0.0,
+            "actualHour":0.0,
+            "date":"20221217"
          },
          {
-            "scheduledAttend":"0.0",
-            "actualAttend":"0.0",
-            "date":"20221218",
-            "week":"(日)"
+            "scheduledHour":0.0,
+            "actualHour":0.0,
+            "date":"20221218"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221219",
-            "week":"(一)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221219"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"10.0",
-            "date":"20221220",
-            "week":"(二)"
+            "scheduledHour":10.0,
+            "actualHour":10.0,
+            "date":"20221220"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221221",
-            "week":"(三)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221221"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221222",
-            "week":"(四)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221222"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221223",
-            "week":"(五)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221223"
          },
          {
-            "scheduledAttend":"0.0",
-            "actualAttend":"0.0",
-            "date":"20221224",
-            "week":"(六)"
+            "scheduledHour":0.0,
+            "actualHour":0.0,
+            "date":"20221224"
          },
          {
-            "scheduledAttend":"0.0",
-            "actualAttend":"0.0",
-            "date":"20221225",
-            "week":"(日)"
+            "scheduledHour":0.0,
+            "actualHour":0.0,
+            "date":"20221225"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221226",
-            "week":"(一)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221226"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"8.0",
-            "date":"20221227",
-            "week":"(二)"
+            "scheduledHour":10.0,
+            "actualHour":8.0,
+            "date":"20221227"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221228",
-            "week":"(三)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221228"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221229",
-            "week":"(四)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221229"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20221230",
-            "week":"(五)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20221230"
          },
          {
-            "scheduledAttend":"0.0",
-            "actualAttend":"0.0",
-            "date":"20221231",
-            "week":"(六)"
+            "scheduledHour":0.0,
+            "actualHour":0.0,
+            "date":"20221231"
          },
          {
-            "scheduledAttend":"0.0",
-            "actualAttend":"0.0",
-            "date":"20230101",
-            "week":"(日)"
+            "scheduledHour":0.0,
+            "actualHour":0.0,
+            "date":"20230101"
          },
          {
-            "scheduledAttend":"0.0",
-            "actualAttend":"0.0",
-            "date":"20230102",
-            "week":"(一)"
+            "scheduledHour":0.0,
+            "actualHour":0.0,
+            "date":"20230102"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20230103",
-            "week":"(二)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20230103"
          },
          {
-            "scheduledAttend":"10.0",
-            "actualAttend":"0.0",
-            "date":"20230104",
-            "week":"(三)"
+            "scheduledHour":10.0,
+            "actualHour":0.0,
+            "date":"20230104"
          }
       ]
    }
