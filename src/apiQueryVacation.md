@@ -78,14 +78,15 @@ Here is a JSON representation of request.
       "vacationList":[
          {
             "vacationName":"休息",
-            "startDate":"20230105",
-            "endDate":"20230105",
-            "startTime":"0800",
-            "endTime":"1700",
-            "amt":"8.00小時",
+            "startDate":"01/23(一)",
+            "endDate":"01/23(一)",
+            "startTime":"09:00",
+            "endTime":"18:00",
+            "unit": "小時",
             "reason":"test",
             "agent":"2O3",
-            "colorCode":"6B6B75"
+            "colorCode":"6B6B75",
+            "amt": 8.0
          }
       ]
    }
