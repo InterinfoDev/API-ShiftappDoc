@@ -57,6 +57,7 @@ Here is a JSON representation of request.
 | gradeName | 職等名稱 |
 | userType | 身分別代號 |
 | typeName | 身分別名稱 |
+| employeeId | 員工編號 |
 
 
 ### HTTP Response when Successful
@@ -70,6 +71,37 @@ Here is a JSON representation of request.
       "message":"查詢成功",
       "employeeList":[
          {
+            "employeeId":"0806",
+            "empFullName":"符O凌",
+            "empFullEname":"NEW0806",
+            "photo":"",
+            "positionCode":"5048",
+            "phone":"0912XXXXXXXXXXXXX",
+            "gradeCode":"",
+            "possieCode":"6715",
+            "positionName":"",
+            "possieName":"海外行政高專",
+            "gradeName":"",
+            "userType":"A",
+            "typeName":"正式人員"
+         },
+         {
+            "employeeId":"0856",
+            "empFullName":"韶O漩",
+            "empFullEname":"NEW0856",
+            "photo":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f605e5b52565111554f58",
+            "positionCode":"5058",
+            "phone":"0987XXXXXXXXXXXXX",
+            "gradeCode":"",
+            "possieCode":"6715",
+            "positionName":"",
+            "possieName":"海外行政高專",
+            "gradeName":"",
+            "userType":"A",
+            "typeName":"正式人員"
+         },
+         {
+            "employeeId":"0896",
             "empFullName":"晁O翔",
             "empFullEname":"NEW0896",
             "photo":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f605e5b52565111554f58",
@@ -84,6 +116,7 @@ Here is a JSON representation of request.
             "typeName":"正式人員"
          },
          {
+            "employeeId":"0909",
             "empFullName":"燕O雲",
             "empFullEname":"NEW0909",
             "photo":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f605e5b52565111554f58",
@@ -98,6 +131,7 @@ Here is a JSON representation of request.
             "typeName":"正式人員"
          },
          {
+            "employeeId":"0937",
             "empFullName":"文O瑾",
             "empFullEname":"NEW0937",
             "photo":"",
@@ -112,6 +146,7 @@ Here is a JSON representation of request.
             "typeName":"正式人員"
          },
          {
+            "employeeId":"0991",
             "empFullName":"蔚O鈞",
             "empFullEname":"NEW0991",
             "photo":"",
@@ -126,6 +161,7 @@ Here is a JSON representation of request.
             "typeName":"正式人員"
          },
          {
+            "employeeId":"1161",
             "empFullName":"瞿O裕",
             "empFullEname":"NEW1161",
             "photo":"",
@@ -140,6 +176,7 @@ Here is a JSON representation of request.
             "typeName":"正式人員"
          },
          {
+            "employeeId":"1162",
             "empFullName":"顧O棋",
             "empFullEname":"NEW1162",
             "photo":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f605e5b52565111554f58",
@@ -154,6 +191,7 @@ Here is a JSON representation of request.
             "typeName":"正式人員"
          },
          {
+            "employeeId":"1513",
             "empFullName":"仰O利",
             "empFullEname":"NEW1513",
             "photo":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f28574d52634f57504b50637a726f605e5b52565111554f58",
@@ -168,6 +206,7 @@ Here is a JSON representation of request.
             "typeName":"特定性契約人員"
          },
          {
+            "employeeId":"1533",
             "empFullName":"宮O瑾",
             "empFullEname":"NEW1533",
             "photo":"",
@@ -182,6 +221,7 @@ Here is a JSON representation of request.
             "typeName":"特定性契約人員"
          },
          {
+            "employeeId":"test0009",
             "empFullName":"陳O明",
             "empFullEname":"NEWtest0009",
             "photo":"",
