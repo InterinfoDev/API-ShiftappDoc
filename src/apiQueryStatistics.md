@@ -25,8 +25,11 @@ Here is a JSON representation of request.
    },
    "requestBody":{
       "companyId":"TW",
-      "depNumber":528,
-      "shiftYM":"202212"
+      "depNumber":534,
+      "positionCode":"",
+      "possieCode":"",
+      "userType":"",
+      "attendYM":"202112"
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
