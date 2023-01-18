@@ -55,37 +55,35 @@ Here is a JSON representation of request.
 |:----------|:-------------|
 | attendYM | 考勤年月 |
 | date | 日期 |
-
 | resultMessage | 結果訊息 |
 | resultCode | 結果代號 |
 | message | 訊息 |
-|actualAttendTotalHours | 實際出勤總計時數 |
-|scheduledAttendTotalHours | 預排出勤總計時數 |
-|supportTotalHours | 支援借調總計時數 |
-|monthTotalHours | 出勤合計總計時數 |
-|holidayTotalHours | 休假/免出勤總計時數 |
-|actualAttendTotalPeople | 實際出勤總計人數 |
-|scheduledAttendTotalPeople | 預排出勤總計人數 |
-|supportTotalPeople | 支援借調總計人數 |
-|monthTotalPeople | 出勤合計總計人數 |
-|holidayTotalPeople | 休假/免出勤總計人數 |
-|overtimeTotalHours | 加班時數總計 |
-|overtimeTotalPeople | 加班人數總計 |
-|attendHoursStatisticsList | 出勤時數列表 |
-|scheduledHours | 每日預排出勤時數 |
-|actualHours | 每日實際出勤時數 |
-|supportHours | 每日支援借調時數 |
-|dayTotalHours | 每日出勤合計時數 |
-|holidayHours | 每日休假 / 免出勤時數 |
-|attendPeopleStatisticsList | 出勤人數列表 |
-|scheduledPeople | 每日預排出勤人數 |
-|actualPeople | 每日實際出勤人數 |
-|supportPeople | 每日支援借調人數 |
-|dayTotalPeople | 每日出勤合計人數 |
-|overtimeStatisticsList | 加班統計列表 |
-|overtimePeople | 每日加班人數 |
-|overtimeHours | 每日加班時數 |
-
+| actualAttendTotalHours | 實際出勤總計時數 |
+| scheduledAttendTotalHours | 預排出勤總計時數 |
+| supportTotalHours | 支援借調總計時數 |
+| monthTotalHours | 出勤合計總計時數 |
+| holidayTotalHours | 休假/免出勤總計時數 |
+| actualAttendTotalPeople | 實際出勤總計人數 |
+| scheduledAttendTotalPeople | 預排出勤總計人數 |
+| supportTotalPeople | 支援借調總計人數 |
+| monthTotalPeople | 出勤合計總計人數 |
+| holidayTotalPeople | 休假/免出勤總計人數 |
+| overtimeTotalHours | 加班時數總計 |
+| overtimeTotalPeople | 加班人數總計 |
+| attendHoursStatisticsList | 出勤時數列表 |
+| scheduledHours | 每日預排出勤時數 |
+| actualHours | 每日實際出勤時數 |
+| supportHours | 每日支援借調時數 |
+| dayTotalHours | 每日出勤合計時數 |
+| holidayHours | 每日休假 / 免出勤時數 |
+| attendPeopleStatisticsList | 出勤人數列表 |
+| scheduledPeople | 每日預排出勤人數 |
+| actualPeople | 每日實際出勤人數 |
+| supportPeople | 每日支援借調人數 |
+| dayTotalPeople | 每日出勤合計人數 |
+| overtimeStatisticsList | 加班統計列表 |
+| overtimePeople | 每日加班人數 |
+| overtimeHours | 每日加班時數 |
 
 ### HTTP Response when Successful
 ```json
