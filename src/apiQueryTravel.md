@@ -69,8 +69,8 @@ Here is a JSON representation of request.
     "message": "查詢成功",
     "travelList": [
       {
-        "startDate": "20220312",
-        "endDate": "20220312",
+        "startDate": "03/04(五)",
+        "endDate": "03/07(一)",
         "startTime": "0800",
         "endTime": "1700",
         "place": "南港中國信託",
@@ -78,8 +78,8 @@ Here is a JSON representation of request.
         "note": "餐費100 + 車票50"
       },
       {
-        "startDate": "20220304",
-        "endDate": "20220307",
+        "startDate": "03/12(六)",
+        "endDate": "03/12(六)",
         "startTime": "0800",
         "endTime": "1700",
         "place": "台北南港",
