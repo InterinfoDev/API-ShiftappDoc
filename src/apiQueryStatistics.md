@@ -213,7 +213,7 @@ Here is a JSON representation of request.
     "responseBody": {
     }
 }
-```
+``` 
 
 ### HTTP Response when Exception
 ```json
