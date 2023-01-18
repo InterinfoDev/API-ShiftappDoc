@@ -29,7 +29,7 @@ Here is a JSON representation of request.
       "positionCode":"",
       "possieCode":"",
       "userType":"",
-      "statisticsYM":"202112"
+      "attendYM":"202112"
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
@@ -47,7 +47,7 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | companyId | TW | String | apiLogin所取得的companyId | Y | n/a |
 | depNumber | 534 | Integer | 部門 | N | n/a |
-| statisticsYM | 202212 | String | 報表年月 | N | YYYYmm |
+| attendYM | 202212 | String | 報表年月 | N | YYYYmm |
 | positionCode |  | String | 職稱 | N | n/a |
 | userType |  | String | 身分別 | N | n/a |
 | possieCode |  | String | 職位 | N | n/a |
@@ -56,7 +56,7 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| statisticsYM | 報表年月 |
+| attendYM | 報表年月 |
 | date | 日期 |
 | resultMessage | 結果訊息 |
 | resultCode | 結果代號 |
@@ -97,7 +97,7 @@ Here is a JSON representation of request.
     },
     "responseBody": {
         "message": "查詢成功",
-        "statisticsYM": "202112",
+        "attendYM": "202112",
         "actualAttendTotalHours": 0.0,
         "scheduledAttendTotalHours": 2093.0,
         "supportTotalHours": 0.0,
