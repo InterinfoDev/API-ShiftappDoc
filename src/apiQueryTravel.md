@@ -71,8 +71,8 @@ Here is a JSON representation of request.
       {
         "startDate": "03/04(五)",
         "endDate": "03/07(一)",
-        "startTime": "0800",
-        "endTime": "1700",
+        "startTime": "08:00",
+        "endTime": "17:00",
         "place": "南港中國信託",
         "workingItem": "外訓",
         "note": "餐費100 + 車票50"
@@ -80,8 +80,8 @@ Here is a JSON representation of request.
       {
         "startDate": "03/12(六)",
         "endDate": "03/12(六)",
-        "startTime": "0800",
-        "endTime": "1700",
+        "startTime": "08:00",
+        "endTime": "17:00",
         "place": "台北南港",
         "workingItem": "外訓",
         "note": "AndyHou測試出差單備註"
