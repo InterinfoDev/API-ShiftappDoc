@@ -107,7 +107,7 @@ Here is a JSON representation of request.
             "visable":true
          },
          {
-            "id":"depName",
+            "id":"depFullName",
             "name":"工作單位",
             "value":"企劃部",
             "visable":true
