@@ -67,7 +67,7 @@ Here is a JSON representation of request.
 | emergencyContactPhone | 緊急連絡電話 |
 | emergencyContactName | 緊急連絡人姓名 |
 | emergencyContactRelationship | 緊急連絡人關係 |
-| note | 歷史疾病 |
+| disease | 歷史疾病 |
 | resultMessage | 結果訊息 |
 | resultCode | 結果代號 |
 | message | 訊息 |
@@ -190,7 +190,7 @@ Here is a JSON representation of request.
             "visable":true
          },
          {
-            "id":"note",
+            "id":"disease",
             "name":"員工身體狀況",
             "value":"",
             "visable":true
