@@ -161,6 +161,7 @@ Here is a JSON representation of request.
             "visable":true
          },
          {
+            "id":"phone",
             "name":"行動電話",
             "value":"",
             "visable":false
