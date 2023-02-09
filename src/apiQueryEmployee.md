@@ -50,19 +50,24 @@ Here is a JSON representation of request.
 | empFullName | 中文姓名 |
 | empFullEname | 英文姓名 |
 | photo | 照片 |
-| depNumber | 部門代號(暗碼) |
 | phone | 連絡電話 |
 | address | 地址 |
 | startDate | 開始日期 |
-| placeCode | 工作地點代號 |
-| depFullName | 部門全名 |
-| depCode | 部門代號(明碼) |
+| placeName | 工作地點 |
+| depFullName | 工作單位 |
 | positionName | 職稱名稱 |
+| gradeName | 職等 |
+| possieName | 職位 |
+| userTypeName | 身份別 |
 | placeName | 地點中文名稱 |
-| placeEName | 工作地點英文名稱 |
+| directChief | 直屬主管 |
+| agentName | 職務代理人 |
+| phone | 行動電話 |
+| mail | 電子信箱 |
 | emergencyContactPhone | 緊急連絡電話 |
 | emergencyContactName | 緊急連絡人姓名 |
-| note | 人員備註 |
+| emergencyContactRelationship | 緊急連絡人關係 |
+| note | 歷史疾病 |
 | resultMessage | 結果訊息 |
 | resultCode | 結果代號 |
 | message | 訊息 |
@@ -70,37 +75,128 @@ Here is a JSON representation of request.
 ### HTTP Response when Successful
 ```json
 {
-    "responseHeader": {
-        "resultMessage": "執行成功",
-        "resultCode": "200"
-    },
-    "responseBody": {
-        "message": "查詢成功",
-        "employee": {
-            "employeeId": "0169",
-            "empFullName": "關Ｏ玲",
-            "empFullEname": "NEW0169",
-            "photo": "url",
-            "depNumber": 1,
-            "phone": "0987XXXXXXXXXXXXX",
-            "address": "新北市中和區建八路16號",
-            "startDate": "19891211",
-            "placeCode": "TW3",
-            "depFullName": "英特內股份有限公司",
-            "depCode": "99999",
-            "positionName": "",
-            "possieName": "總處秘書",
-            "placeName": "桃園",
-            "placeEName": "",
-            "emergencyContactPhone": "0932123456",
-            "emergencyContactName": "林Ｏ明"
-        },
-        "chief": {
-            "employeeId": "BBB01",
-            "empFullName": "王Ｏ明",
-            "empFullEname": ""
-        }
-    }
+   "responseHeader":{
+      "resultMessage":"執行成功",
+      "resultCode":"200"
+   },
+   "responseBody":{
+      "message":"查詢成功",
+      "employeeList":[
+         {
+            "id":"photo",
+            "name":"照片",
+            "value":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "visable":true
+         },
+         {
+            "id":"employeeId",
+            "name":"員工編號",
+            "value":"admin",
+            "visable":true
+         },
+         {
+            "id":"empFullName",
+            "name":"中文姓名",
+            "value":"系統管理員",
+            "visable":true
+         },
+         {
+            "id":"empFullEname",
+            "name":"英文姓名",
+            "value":"eline",
+            "visable":true
+         },
+         {
+            "id":"depName",
+            "name":"工作單位",
+            "value":"企劃部",
+            "visable":true
+         },
+         {
+            "id":"placeName",
+            "name":"工作地點",
+            "value":"雲林",
+            "visable":true
+         },
+         {
+            "id":"startDate",
+            "name":"到職日",
+            "value":"",
+            "visable":false
+         },
+         {
+            "id":"directChief",
+            "name":"直屬主管",
+            "value":"池O祥",
+            "visable":true
+         },
+         {
+            "id":"positionName",
+            "name":"職稱",
+            "value":"系統管理員",
+            "visable":true
+         },
+         {
+            "id":"gradeName",
+            "name":"職等",
+            "value":"",
+            "visable":true
+         },
+         {
+            "id":"possieName",
+            "name":"職位",
+            "value":"SA系統分析",
+            "visable":true
+         },
+         {
+            "id":"userTypeName",
+            "name":"身份別",
+            "value":"",
+            "visable":false
+         },
+         {
+            "id":"agentName",
+            "name":"職務代理人",
+            "value":"",
+            "visable":true
+         },
+         {
+            "name":"行動電話",
+            "value":"",
+            "visable":false
+         },
+         {
+            "id":"mail",
+            "name":"電子信箱",
+            "value":"",
+            "visable":false
+         },
+         {
+            "id":"emergencyContactName",
+            "name":"緊急聯絡人姓名",
+            "value":"測試B",
+            "visable":true
+         },
+         {
+            "id":"emergencyContactRelationship",
+            "name":"緊急連絡人關係",
+            "value":"",
+            "visable":false
+         },
+         {
+            "id":"emergencyContactPhone",
+            "name":"緊急連絡人行動電話",
+            "value":"0932-123456",
+            "visable":true
+         },
+         {
+            "id":"note",
+            "name":"員工身體狀況",
+            "value":"",
+            "visable":true
+         }
+      ]
+   }
 }
 ```
 
