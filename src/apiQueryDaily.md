@@ -60,6 +60,7 @@ Here is a JSON representation of request.
 | depFullName | 部門全名 |
 | isHoliday | 是否為國定假日 |
 | subject | 主題 |
+| dayOfWeek | 星期 |
 | resultMessage | 結果訊息 |
 | resultCode | 結果代號 |
 | message | 訊息 |
@@ -81,7 +82,8 @@ Here is a JSON representation of request.
       "dailyInfo":[
          {
             "date":"20221201",
-            "subject":"週一．二二八紀念日",
+            "subject":"二二八紀念日",
+            "dayOfWeek":"週二",
             "isHoliday":true,
             "note":"kevin假資料測試",
             "supportCount":3,
@@ -107,6 +109,7 @@ Here is a JSON representation of request.
          {
             "date":"20221202",
             "subject":"週一．二二八紀念日",
+            "dayOfWeek":"週二",
             "isHoliday":true,
             "note":"kevin假資料測試",
             "supportCount":3,
