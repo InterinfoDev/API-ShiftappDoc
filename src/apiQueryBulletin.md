@@ -24,6 +24,10 @@ Here is a JSON representation of request.
    "requestHeader":{
    },
    "requestBody":{
+      "bulletinCount": 10,
+      "keyWord": "",
+      "lastKey": "3" ,
+      "type": "" 
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
@@ -39,6 +43,10 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
+| bulletinCount | 10 | Integer | 顯示筆數 | n | n/a |
+| keyWord | "" | String | 關鍵字 | n | n/a |
+| lastKey | "3" | Integer | 最後筆數 | n | n/a |
+| type | "" | Integer | 選項 : 新到舊--> toOld 舊到新--> toNew 已讀--> isRead 未讀 --> unRead) | n | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
