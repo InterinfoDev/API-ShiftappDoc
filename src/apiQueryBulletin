@@ -51,7 +51,7 @@ Here is a JSON representation of request.
 | time | 通知時間 |
 | date | 通知日期 |
 | read | 是否已讀 |
-| filesOutput | 檔案輸出格式 |
+| filesList | 檔案 |
 
 
 ### HTTP Response when Successful
@@ -62,7 +62,7 @@ Here is a JSON representation of request.
    },
    "responseBody":{
       "message":"查詢成功",
-      "bulletinOutput":[
+      "bulletinList":[
          {
             "id":"1",
             "bulletinTitle":"測試囉",
@@ -72,7 +72,7 @@ Here is a JSON representation of request.
             "time":"093156",
             "date":"20230210",
             "read":false,
-            "filesOutput":[
+            "filesList":[
                {
                   "filesKey":"1254444899643701143193487589634957007592993216761018430885254943967499105724800747662284185961928986582682088938670047563026156909362352073899762881154055046717572347180284418",
                   "fileName":"1675994729941_smart maker 作業上傳規格.txt"
