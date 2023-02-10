@@ -81,7 +81,7 @@ Here is a JSON representation of request.
    },
    "responseBody":{
       "message":"查詢成功",
-         "employeeFileDetail":[
+      "employeeFieldDetail":[
          {
             "id":"photo",
             "name":"照片",
