@@ -82,122 +82,122 @@ Here is a JSON representation of request.
    "responseBody":{
       "message":"查詢成功",
       "employee":{
-         "note":""
+         "note":"71測試第二次"
       },
-      "employeeVisableField":[
+      "employeeVisibleField":[
          {
             "id":"photo",
             "name":"照片",
             "value":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
-            "visable":true
+            "visible":true
          },
          {
             "id":"employeeId",
             "name":"員工編號",
             "value":"admin",
-            "visable":true
+            "visible":true
          },
          {
             "id":"empFullName",
             "name":"中文姓名",
             "value":"系統管理員",
-            "visable":true
+            "visible":true
          },
          {
             "id":"empFullEname",
             "name":"英文姓名",
             "value":"eline",
-            "visable":true
+            "visible":true
          },
          {
             "id":"depFullName",
             "name":"工作單位",
             "value":"企劃部",
-            "visable":true
+            "visible":true
          },
          {
             "id":"placeName",
             "name":"工作地點",
             "value":"雲林",
-            "visable":true
+            "visible":true
          },
          {
             "id":"startDate",
             "name":"到職日",
-            "value":"",
-            "visable":false
+            "value":"20200309",
+            "visible":true
          },
          {
             "id":"directChief",
             "name":"直屬主管",
             "value":"池O祥",
-            "visable":true
+            "visible":true
          },
          {
             "id":"positionName",
             "name":"職稱",
             "value":"系統管理員",
-            "visable":true
+            "visible":true
          },
          {
             "id":"gradeName",
             "name":"職等",
             "value":"",
-            "visable":true
+            "visible":true
          },
          {
             "id":"possieName",
             "name":"職位",
             "value":"SA系統分析",
-            "visable":true
+            "visible":true
          },
          {
             "id":"userTypeName",
             "name":"身份別",
             "value":"",
-            "visable":false
+            "visible":false
          },
          {
             "id":"agentName",
             "name":"職務代理人",
             "value":"",
-            "visable":true
+            "visible":true
          },
          {
             "id":"phone",
             "name":"行動電話",
             "value":"",
-            "visable":false
+            "visible":false
          },
          {
             "id":"mail",
             "name":"電子信箱",
             "value":"",
-            "visable":false
+            "visible":false
          },
          {
             "id":"emergencyContactName",
             "name":"緊急聯絡人姓名",
             "value":"測試B",
-            "visable":true
+            "visible":true
          },
          {
             "id":"emergencyContactRelationship",
             "name":"緊急連絡人關係",
             "value":"",
-            "visable":false
+            "visible":false
          },
          {
             "id":"emergencyContactPhone",
             "name":"緊急連絡人行動電話",
             "value":"0932-123456",
-            "visable":true
+            "visible":true
          },
          {
             "id":"disease",
             "name":"疾病歷史",
             "value":"",
-            "visable":true
+            "visible":true
          }
       ]
    }
