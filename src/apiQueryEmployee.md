@@ -81,7 +81,10 @@ Here is a JSON representation of request.
    },
    "responseBody":{
       "message":"查詢成功",
-      "employeeFieldDetail":[
+      "employee":{
+         "note":""
+      },
+      "employeeVisableField":[
          {
             "id":"photo",
             "name":"照片",
@@ -192,7 +195,7 @@ Here is a JSON representation of request.
          },
          {
             "id":"disease",
-            "name":"員工身體狀況",
+            "name":"疾病歷史",
             "value":"",
             "visable":true
          }
