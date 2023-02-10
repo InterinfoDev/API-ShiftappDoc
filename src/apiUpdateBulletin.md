@@ -1,4 +1,4 @@
-# apiQueryBulletin
+# apiUpdateBulletin
 更新通知已讀取
 
 ### HTTP Request
