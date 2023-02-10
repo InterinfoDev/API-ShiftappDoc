@@ -48,15 +48,17 @@ Here is a JSON representation of request.
 
 
 ### HTTP Response when Successful
+```json
 {
-    "responseHeader": {
-        "resultMessage": "執行成功",
-        "resultCode": "200"
-    },
-    "responseBody": {
-        "message": "異動成功"
-    }
+   "responseHeader":{
+      "resultMessage":"執行成功",
+      "resultCode":"200"
+   },
+   "responseBody":{
+      "message":"異動成功"
+   }
 }
+```
 
 ### HTTP Response when Failed
 ```json
