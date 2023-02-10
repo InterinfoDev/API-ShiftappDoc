@@ -26,7 +26,7 @@ Here is a JSON representation of request.
    "requestBody":{
       "bulletinCount": 10,
       "keyWord": "",
-      "lastKey": "3" ,
+      "lastKey": "8" ,
       "type": "" 
    },
    "uid":"98599308101484732326",
@@ -45,7 +45,7 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | bulletinCount | 10 | Integer | 顯示筆數 | n | n/a |
 | keyWord | "" | String | 關鍵字 | n | n/a |
-| lastKey | "3" | Integer | 最後筆數 | n | n/a |
+| lastKey | "8" | Integer | 最後筆數 | n | n/a |
 | type | "" | Integer | 選項 : 新到舊--> toOld 舊到新--> toNew 已讀--> isRead 未讀 --> unRead) | n | n/a |
 
 ### requestBody FieldName
@@ -64,31 +64,43 @@ Here is a JSON representation of request.
 
 ### HTTP Response when Successful
 ```json
-{
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
-      "message":"查詢成功",
-      "bulletinList":[
          {
-            "id":"1",
-            "bulletinTitle":"測試囉",
-            "bulletinContent":"測試囉",
+            "id":"12",
+            "bulletinTitle":"測試9",
+            "bulletinContent":"測試9",
             "announcer":"admin",
             "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
-            "time":"093156",
+            "time":"170541",
             "date":"20230210",
             "read":false,
             "filesList":[
                {
-                  "filesKey":"1254444899643701143193487589634957007592993216761018430885254943967499105724800747662284185961928986582682088938670047563026156909362352073899762881154055046717572347180284418",
-                  "fileName":"1675994729941_smart maker 作業上傳規格.txt"
+                  "filesKey":"68003594272853068328215665708396536910803200539809124725653221089541935775145512591452578974795585766937412772418672899192952520539333198496666129014270268",
+                  "fileName":"1676019957890_indexintabel.htm"
                },
                {
-                  "filesKey":"68003594272853068328215665708396536910803200539809124725653221089541935775145449779519013519726653958738092323820945931883557599542891006733286873174067923",
-                  "fileName":"1675994729943_CLASSNAME.png"
+                  "filesKey":"3686482232372505193311491069793949974906302509533992293460953544329316936301906817435325944558245086789505036920536616322311603270254573",
+                  "fileName":"1676019957893_綠燈.jpg"
+               }
+            ]
+         },
+         {
+            "id":"13",
+            "bulletinTitle":"測試10",
+            "bulletinContent":"測試10",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"170558",
+            "date":"20230210",
+            "read":false,
+            "filesList":[
+               {
+                  "filesKey":"3686482232372505193311491069793949974906302509533992293460953544329316936301906246809703664703440817647325235966512687303884498841415329",
+                  "fileName":"1676019977763_emaker.htm"
+               },
+               {
+                  "filesKey":"3686482232372505193311491069793949974906302509533992293460953544329316936301906246809703664703440945168832333643770569628840064523362077",
+                  "fileName":"1676019977764_STOP.png"
                }
             ]
          }
