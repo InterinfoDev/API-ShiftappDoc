@@ -45,8 +45,8 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | bulletinCount | 10 | Integer | 顯示筆數 | n | n/a |
 | keyWord | "" | String | 關鍵字 | n | n/a |
-| lastKey | "8" | Integer | 最後筆數 | n | n/a |
-| type | "" | Integer | 選項 : 新到舊--> toOld 舊到新--> toNew 已讀--> isRead 未讀 --> unRead) | n | n/a |
+| lastId | "8" | String | 最後筆數 | n | n/a |
+| type | "" | String | 選項 : 新到舊--> toOld 舊到新--> toNew 已讀--> isRead 未讀 --> unRead) | n | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
