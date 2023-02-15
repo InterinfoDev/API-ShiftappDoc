@@ -24,10 +24,9 @@ Here is a JSON representation of request.
    "requestHeader":{
    },
    "requestBody":{
-      "bulletinCount": 10,
       "keyWord": "",
-      "lastKey": "8" ,
-      "type": "" 
+      "type": "",
+      "duration": "20230212",
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
@@ -43,9 +42,8 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| bulletinCount | 10 | Integer | 顯示筆數 | n | n/a |
 | keyWord | "" | String | 關鍵字 | n | n/a |
-| lastId | "8" | String | 最後筆數 | n | n/a |
+| duration | "" | String | 日期 | n | n/a |
 | type | "" | String | 選項 : 新到舊--> toOld 舊到新--> toNew 已讀--> isRead 未讀 --> unRead) | n | n/a |
 
 ### requestBody FieldName
@@ -54,10 +52,12 @@ Here is a JSON representation of request.
 | id | key值 |
 | bulletinTitle | 通知主旨 |
 | bulletinContent | 通知內容 |
+| bulletinImg | 通知圖片 |
 | announcer | 發佈者 |
 | announcerImg | 發佈者圖片 |
 | time | 通知時間 |
 | date | 通知日期 |
+| serverTime | 系統日期 |
 | read | 是否已讀 |
 | filesList | 檔案 |
 
@@ -73,103 +73,333 @@ Here is a JSON representation of request.
       "message":"查詢成功",
       "bulletinList":[
          {
-            "id":"9",
-            "bulletinTitle":"測試6",
-            "bulletinContent":"測試6",
+            "id":"1",
+            "bulletinTitle":"推播改寫法QQ",
+            "bulletinContent":"推播改寫法QQ",
+            "bulletinImg":"",
             "announcer":"admin",
             "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
-            "time":"170443",
-            "date":"20230210",
-            "read":false,
+            "time":"100023",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":true,
             "filesList":[
-               {
-                  "fileKey":"3686482232372505193311491069793949974906302509533992293460953544329316936301903569805892690000059981550238049811264662440285101131861365",
-                  "fileName":"1676019901359_catty1.htm"
-               },
-               {
-                  "fileKey":"68003594272853068328215665708396536910803200539809124725653221089541935775145452683263577481564575505235792937421566485926408642117458655667740378798954939",
-                  "fileName":"1676019901361_suitespotlogo.gif"
-               }
+               
             ]
          },
          {
-            "id":"10",
-            "bulletinTitle":"測試7",
-            "bulletinContent":"測試7",
+            "id":"3",
+            "bulletinTitle":"有APP推播QQ",
+            "bulletinContent":"有APP推播QQ",
+            "bulletinImg":"",
             "announcer":"admin",
             "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
-            "time":"170501",
-            "date":"20230210",
-            "read":false,
+            "time":"170045",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":true,
             "filesList":[
-               {
-                  "fileKey":"68003594272853068328215665708396536910803200539809124725653221089541935775145524184110891640206309849729206713051762127048046300522499030472694301001047559",
-                  "fileName":"1676019921620_hrm8w_kanpai.htm"
-               },
-               {
-                  "fileKey":"1254444899643701143193487589634957007592993216761018430885254943967499105724802120184748470458723888959045356635906134050589192281814116870911070921963019284651790204544267438",
-                  "fileName":"1676019921621_1535358729459_A02.jpg"
-               }
+               
             ]
          },
          {
-            "id":"11",
-            "bulletinTitle":"測試8",
-            "bulletinContent":"測試8",
+            "id":"14",
+            "bulletinTitle":"測試多筆1",
+            "bulletinContent":"測試多筆1",
+            "bulletinImg":"",
             "announcer":"admin",
             "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
-            "time":"170522",
-            "date":"20230210",
+            "time":"171008",
+            "date":"20230214",
+            "serverTime":"20230215",
             "read":false,
             "filesList":[
-               {
-                  "fileKey":"68003594272853068328215665708396536910803200539809124725653221089541935775145443631223028540985516435798085854961150392249426776692572237316159627056256938",
-                  "fileName":"1676019940515_hrm8b_walsin3.html"
-               },
-               {
-                  "fileKey":"1254444899643701143193487589634957007592993216761018430885254943967499105724800634246241661643105587655084434488783526257742557956513421329960077602744717632622694615111593130",
-                  "fileName":"1676019940516_Resume_BackGround.jpg"
-               }
+               
             ]
          },
          {
-            "id":"12",
-            "bulletinTitle":"測試0",
-            "bulletinContent":"測試0",
+            "id":"15",
+            "bulletinTitle":"測試多筆2",
+            "bulletinContent":"測試多筆2",
+            "bulletinImg":"",
             "announcer":"admin",
             "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
-            "time":"170541",
-            "date":"20230210",
+            "time":"171031",
+            "date":"20230214",
+            "serverTime":"20230215",
             "read":false,
             "filesList":[
-               {
-                  "fileKey":"68003594272853068328215665708396536910803200539809124725653221089541935775145512591452578974795585766937412772418672899192952520539333198496666129014270268",
-                  "fileName":"1676019957890_indexintabel.htm"
-               },
-               {
-                  "fileKey":"3686482232372505193311491069793949974906302509533992293460953544329316936301906817435325944558245086789505036920536616322311603270254573",
-                  "fileName":"1676019957893_綠燈.jpg"
-               }
+               
             ]
          },
          {
-            "id":"13",
-            "bulletinTitle":"測試10",
-            "bulletinContent":"測試10",
+            "id":"16",
+            "bulletinTitle":"測試多筆3",
+            "bulletinContent":"測試多筆3",
+            "bulletinImg":"",
             "announcer":"admin",
             "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
-            "time":"170558",
-            "date":"20230210",
+            "time":"171041",
+            "date":"20230214",
+            "serverTime":"20230215",
             "read":false,
             "filesList":[
-               {
-                  "fileKey":"3686482232372505193311491069793949974906302509533992293460953544329316936301906246809703664703440817647325235966512687303884498841415329",
-                  "fileName":"1676019977763_emaker.htm"
-               },
-               {
-                  "fileKey":"3686482232372505193311491069793949974906302509533992293460953544329316936301906246809703664703440945168832333643770569628840064523362077",
-                  "fileName":"1676019977764_STOP.png"
-               }
+               
+            ]
+         },
+         {
+            "id":"17",
+            "bulletinTitle":"測試多筆4",
+            "bulletinContent":"測試多筆4",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171052",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"18",
+            "bulletinTitle":"測試多筆5",
+            "bulletinContent":"測試多筆5",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171102",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"19",
+            "bulletinTitle":"測試多筆6",
+            "bulletinContent":"測試多筆6",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171112",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"20",
+            "bulletinTitle":"測試多筆7",
+            "bulletinContent":"測試多筆7",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171122",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"21",
+            "bulletinTitle":"測試多筆8",
+            "bulletinContent":"測試多筆8",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171130",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"22",
+            "bulletinTitle":"測試多筆9",
+            "bulletinContent":"測試多筆9",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171140",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"23",
+            "bulletinTitle":"測試多筆10",
+            "bulletinContent":"測試多筆10",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171151",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"24",
+            "bulletinTitle":"英特內1",
+            "bulletinContent":"英特內1",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171202",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"25",
+            "bulletinTitle":"英特內2",
+            "bulletinContent":"英特內2",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171226",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"26",
+            "bulletinTitle":"英特內3",
+            "bulletinContent":"英特內3",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171234",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"27",
+            "bulletinTitle":"英特內4",
+            "bulletinContent":"英特內4",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171243",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"28",
+            "bulletinTitle":"英特內5",
+            "bulletinContent":"英特內5",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171251",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"29",
+            "bulletinTitle":"英特內6",
+            "bulletinContent":"英特內6",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171259",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"30",
+            "bulletinTitle":"英特內7",
+            "bulletinContent":"英特內7",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171307",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"31",
+            "bulletinTitle":"英特內8",
+            "bulletinContent":"英特內8",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171335",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"32",
+            "bulletinTitle":"英特內9",
+            "bulletinContent":"英特內9",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171343",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
+            ]
+         },
+         {
+            "id":"33",
+            "bulletinTitle":"英特內10",
+            "bulletinContent":"英特內10",
+            "bulletinImg":"",
+            "announcer":"admin",
+            "announcerImg":"http://59.124.100.151:8090/servlet/jform?em_step=2&file=hrm8w.pkg&enc=93d23f3a4b3f18574d52104f57504b50100e09080a0e0b070e0e0d09080d606c60600b0e0d090c0e0f0911554f58",
+            "time":"171352",
+            "date":"20230214",
+            "serverTime":"20230215",
+            "read":false,
+            "filesList":[
+               
             ]
          }
       ]
