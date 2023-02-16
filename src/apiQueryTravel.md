@@ -61,33 +61,45 @@ Here is a JSON representation of request.
 ### HTTP Response when Successful
 ```json
 {
-  "responseHeader": {
-    "resultMessage": "執行成功",
-    "resultCode": "200"
-  },
-  "responseBody": {
-    "message": "查詢成功",
-    "travelList": [
-      {
-        "startDate": "03/04(五)",
-        "endDate": "03/07(一)",
-        "startTime": "08:00",
-        "endTime": "17:00",
-        "place": "南港中國信託",
-        "workingItem": "外訓",
-        "note": "餐費100 + 車票50"
-      },
-      {
-        "startDate": "03/12(六)",
-        "endDate": "03/12(六)",
-        "startTime": "08:00",
-        "endTime": "17:00",
-        "place": "台北南港",
-        "workingItem": "外訓",
-        "note": "AndyHou測試出差單備註"
+   "responseHeader":{
+      "resultMessage":"執行成功",
+      "resultCode":"200"
+   },
+   "responseBody":{
+      "message":"查詢成功",
+      "travelList":[
+         {
+            "startDate":"03/12(六)",
+            "endDate":"03/12(六)",
+            "startTime":"08:00",
+            "endTime":"17:00",
+            "place":"南港中國信託",
+            "workingItem":"A",
+            "note":"餐費100 + 車票50"
+         },
+         {
+            "startDate":"03/04(五)",
+            "endDate":"03/07(一)",
+            "startTime":"08:00",
+            "endTime":"17:00",
+            "place":"台北南港",
+            "workingItem":"A",
+            "note":"AndyHou測試出差單備註"
+         },
+         {
+            "startDate":"03/04(五)",
+            "endDate":"03/07(一)",
+            "startTime":"08:00",
+            "endTime":"17:00",
+            "place":"台北南港",
+            "workingItem":"A",
+            "note":"AndyHou測試出差單備註"
+         }
+      ],
+      "monthDetail":{
+         "tatolDays":5
       }
-    ]
-  }
+   }
 }
 ```
 
