@@ -43,7 +43,7 @@ Here is a JSON representation of request.
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | keyWord | "" | String | 關鍵字 | n | n/a |
-| duration | "20230212" | String | 日期 | n | n/a |
+| dateItem | 1 | Integer | 日期項目 | n | n/a |
 | type | "" | String | 選項 : 新到舊--> toOld 舊到新--> toNew 已讀--> isRead 未讀 --> unRead) | n | n/a |
 
 ### requestBody FieldName
