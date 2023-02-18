@@ -26,7 +26,7 @@ Here is a JSON representation of request.
    "requestBody":{
       "keyWord": "",
       "type": "",
-      "duration": "20230212",
+      "dateItem": 1,
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
