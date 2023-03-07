@@ -66,7 +66,7 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "dateOutput":[
+      "dateList":[
          {
             "date":"20230301",
             "dayOfWeek":3,
