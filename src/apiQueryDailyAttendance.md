@@ -77,7 +77,7 @@ Here is a JSON representation of request.
             "keyName":"出差",
             "keyEngName":"travel",
             "keyPeople":0,
-            "attendanceList":[
+            "attendanceDetailList":[
                
             ]
          },
@@ -85,7 +85,7 @@ Here is a JSON representation of request.
             "keyName":"應刷未刷",
             "keyEngName":"notCard",
             "keyPeople":0,
-            "attendanceList":[
+            "attendanceDetailList":[
                
             ]
          },
@@ -93,7 +93,7 @@ Here is a JSON representation of request.
             "keyName":"請假",
             "keyEngName":"vacation",
             "keyPeople":0,
-            "attendanceList":[
+            "attendanceDetailList":[
                
             ]
          },
@@ -101,15 +101,41 @@ Here is a JSON representation of request.
             "keyName":"免出勤",
             "keyEngName":"nowork",
             "keyPeople":0,
-            "attendanceList":[
+            "attendanceDetailList":[
                
             ]
          },
          {
             "keyName":"實際出勤",
             "keyEngName":"realwork",
-            "keyPeople":17,
-            "attendanceList":[
+            "keyPeople":19,
+            "attendanceDetailList":[
+               {
+                  "photo":"hrm/photo/1664852477608_Screenshot_20220928-090404580.jpg",
+                  "empFullName":"充O棋",
+                  "empFullEngName":"NEW0035",
+                  "workclass":"00",
+                  "stime":"0800",
+                  "etime":"1700",
+                  "inCard":"",
+                  "outCard":"",
+                  "attendError":"",
+                  "errorColor":"",
+                  "errorSort":""
+               },
+               {
+                  "photo":"",
+                  "empFullName":"行事曆測試",
+                  "empFullEngName":"",
+                  "workclass":"03",
+                  "stime":"0930",
+                  "etime":"2100",
+                  "inCard":"",
+                  "outCard":"",
+                  "attendError":"",
+                  "errorColor":"",
+                  "errorSort":""
+               },
                {
                   "photo":"hrm/photo/1677221952517_1673346388101_我是遺照攝影師1-1.jpg",
                   "empFullName":"報表一TEST1105",
@@ -337,7 +363,7 @@ Here is a JSON representation of request.
             "keyName":"應出勤",
             "keyEngName":"work",
             "keyPeople":19,
-            "attendanceList":[
+            "attendanceDetailList":[
                {
                   "photo":"hrm/photo/1677221952517_1673346388101_我是遺照攝影師1-1.jpg",
                   "empFullName":"報表一TEST1105",
@@ -553,7 +579,7 @@ Here is a JSON representation of request.
             "keyName":"單位總人數",
             "keyEngName":"allpeople",
             "keyPeople":19,
-            "attendanceList":[
+            "attendanceDetailList":[
                {
                   "photo":"hrm/photo/1677221952517_1673346388101_我是遺照攝影師1-1.jpg",
                   "empFullName":"報表一TEST1105",
