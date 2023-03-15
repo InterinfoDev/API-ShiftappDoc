@@ -1,9 +1,9 @@
-# apiQueryAttendance
+# apiQueryDailyAttendance
 查詢本日出勤表
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiQueryAttendance
+http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiQueryDailyAttendance
 ```
 
 ### HTTP Request Mehod
@@ -334,7 +334,7 @@ Here is a JSON representation of request.
             ]
          },
          {
-            "keyName":"應出勤人數",
+            "keyName":"應出勤",
             "keyEngName":"work",
             "keyPeople":19,
             "attendanceList":[
