@@ -50,7 +50,7 @@ Here is a JSON representation of request.
 | keyName | 中文名稱 |
 | keyEngName | 英文名稱 |
 | keyPeople | 人數 |
-| attendanceList | 員工資料 |
+| attendanceDetailList | 員工資料 |
 | photo | 照片 |
 | empFullName | 中文姓名 |
 | empFullEngName | 英文姓名 |
