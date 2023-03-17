@@ -91,14 +91,14 @@ Here is a JSON representation of request.
          {
             "date":"20230304",
             "dayOfWeek":6,
-            "isHoliday":true,
+            "isHoliday":false,
             "subject":"",
             "weekName":"週六"
          },
          {
             "date":"20230305",
             "dayOfWeek":0,
-            "isHoliday":true,
+            "isHoliday":false,
             "subject":"",
             "weekName":"週日"
          },
@@ -140,14 +140,14 @@ Here is a JSON representation of request.
          {
             "date":"20230311",
             "dayOfWeek":6,
-            "isHoliday":true,
+            "isHoliday":false,
             "subject":"",
             "weekName":"週六"
          },
          {
             "date":"20230312",
             "dayOfWeek":0,
-            "isHoliday":true,
+            "isHoliday":false,
             "subject":"",
             "weekName":"週日"
          },
@@ -189,14 +189,14 @@ Here is a JSON representation of request.
          {
             "date":"20230318",
             "dayOfWeek":6,
-            "isHoliday":true,
+            "isHoliday":false,
             "subject":"",
             "weekName":"週六"
          },
          {
             "date":"20230319",
             "dayOfWeek":0,
-            "isHoliday":true,
+            "isHoliday":false,
             "subject":"",
             "weekName":"週日"
          },
@@ -245,7 +245,7 @@ Here is a JSON representation of request.
          {
             "date":"20230326",
             "dayOfWeek":0,
-            "isHoliday":true,
+            "isHoliday":false,
             "subject":"",
             "weekName":"週日"
          },
