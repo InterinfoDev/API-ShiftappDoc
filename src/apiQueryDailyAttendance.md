@@ -120,8 +120,7 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":"",
-                  "errorSort":""
+                  "errorColor":""
                },
                {
                   "photo":"",
@@ -133,8 +132,7 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":"",
-                  "errorSort":""
+                  "errorColor":""
                },
                {
                   "photo":"hrm/photo/1677221952517_1673346388101_我是遺照攝影師1-1.jpg",
@@ -147,7 +145,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -160,7 +158,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"hrm/photo/1649233698275_test.png",
@@ -173,7 +171,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -186,7 +184,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -199,7 +197,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -212,7 +210,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -225,7 +223,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -238,7 +236,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -251,7 +249,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"hrm/photo/1673346388101_我是遺照攝影師1-1.jpg",
@@ -264,7 +262,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -277,7 +275,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -290,7 +288,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -303,7 +301,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -316,7 +314,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -329,7 +327,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -342,7 +340,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"/hrm4/photo/1634613792829_TEST.png",
@@ -355,7 +353,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                }
             ]
          },
@@ -591,7 +589,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -604,7 +602,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"hrm/photo/1649233698275_test.png",
@@ -617,7 +615,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -630,7 +628,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -643,7 +641,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -656,7 +654,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -669,7 +667,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -682,7 +680,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -695,7 +693,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"hrm/photo/1673346388101_我是遺照攝影師1-1.jpg",
@@ -708,7 +706,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -721,7 +719,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -734,7 +732,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -747,7 +745,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -760,7 +758,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -773,7 +771,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"",
@@ -786,7 +784,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"/hrm4/photo/1634613792829_TEST.png",
@@ -799,7 +797,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
-                  "errorSort":"1"
+                  "errorSort":1
                },
                {
                   "photo":"hrm/photo/1664852477608_Screenshot_20220928-090404580.jpg",
