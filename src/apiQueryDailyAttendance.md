@@ -61,7 +61,7 @@ Here is a JSON representation of request.
 | outCard | 出卡時間 |
 | attendError | 異常 |
 | errorColor | 異常顏色色碼 |
-| errorSort | 異常排序規則，由1開始 |
+| errorSort | 異常排序規則，由0開始 ， 0-->曠職 1-->遲到 2-->早退 3-->無異常(放空值)|
 
 ### HTTP Response when Successful
 ```json
