@@ -107,8 +107,8 @@ Here is a JSON representation of request.
       ],
       "gradeOption":[
          {
-            "gradeCode":"s1",
-            "gradeName":"高等"
+            "gradeCode":"06",
+            "gradeName":"06"
          }
       ],
       "possieOption":[
