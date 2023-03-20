@@ -115,7 +115,7 @@ Here is a JSON representation of request.
             "titleName":"職等"
          },
          {
-            "titleKey":"PossieName",
+            "titleKey":"possieName",
             "titleName":"職位"
          },
          {
