@@ -55,6 +55,9 @@ Here is a JSON representation of request.
 | date | 排班日期 |
 | classCode | 班別代號 |
 | edit | 是否可編輯 |
+| startDate | 考勤起日 |
+| endDate | 考勤迄日 |
+| totalHour | 部門排班時數上限 |
 
 ### HTTP Response when Successful
 ```json
