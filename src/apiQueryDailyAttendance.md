@@ -61,6 +61,7 @@ Here is a JSON representation of request.
 | outCard | 出卡時間 |
 | attendError | 異常 |
 | errorColor | 異常顏色色碼 |
+| errorWordColor | 異常字色色碼 |
 | errorSort | 異常排序規則，由0開始 ， 0-->曠職 1-->遲到 2-->早退 3-->無異常(放空值)|
 
 ### HTTP Response when Successful
@@ -121,6 +122,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"",
                   "errorColor":"",
+                  "errorWordColor":"",
                   "errorSort":3
                },
                {
@@ -134,6 +136,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"",
                   "errorColor":"",
+                  "errorWordColor":"",
                   "errorSort":3
                },
                {
@@ -147,6 +150,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -160,6 +164,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -173,6 +178,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -186,6 +192,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -199,6 +206,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -212,6 +220,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -225,6 +234,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -238,6 +248,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -251,6 +262,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -264,6 +276,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -277,6 +290,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -290,6 +304,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -303,6 +318,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -316,6 +332,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -329,6 +346,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -342,6 +360,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -355,6 +374,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                }
             ]
@@ -374,7 +394,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"hrm/photo/1664852477608_Screenshot_20220928-090404580.jpg",
@@ -386,7 +408,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -398,7 +422,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"hrm/photo/1649233698275_test.png",
@@ -410,7 +436,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -422,7 +450,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -434,7 +464,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -446,7 +478,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -458,7 +492,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -470,7 +506,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -482,7 +520,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"hrm/photo/1673346388101_我是遺照攝影師1-1.jpg",
@@ -494,7 +534,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -506,7 +548,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -518,7 +562,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -530,7 +576,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -542,7 +590,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -554,7 +604,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -566,7 +618,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"",
@@ -578,7 +632,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                },
                {
                   "photo":"/hrm4/photo/1634613792829_TEST.png",
@@ -590,7 +646,9 @@ Here is a JSON representation of request.
                   "inCard":"",
                   "outCard":"",
                   "attendError":"",
-                  "errorColor":""
+                  "errorColor":"",
+                  "errorWordColor":"",
+                  "errorSort":3
                }
             ]
          },
@@ -610,6 +668,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"",
                   "errorColor":"",
+                  "errorWordColor":"",
                   "errorSort":3
                },
                {
@@ -623,6 +682,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"",
                   "errorColor":"",
+                  "errorWordColor":"",
                   "errorSort":3
                },
                {
@@ -636,6 +696,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -649,6 +710,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -662,6 +724,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -675,6 +738,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -688,6 +752,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -701,6 +766,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -714,6 +780,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -727,6 +794,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -740,6 +808,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -753,6 +822,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -766,6 +836,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -779,6 +850,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -792,6 +864,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -805,6 +878,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -818,6 +892,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -831,6 +906,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                },
                {
@@ -844,6 +920,7 @@ Here is a JSON representation of request.
                   "outCard":"",
                   "attendError":"曠職",
                   "errorColor":"F0D8FF",
+                  "errorWordColor":"B53CFF",
                   "errorSort":0
                }
             ]
