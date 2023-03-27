@@ -65,154 +65,103 @@ Here is a JSON representation of request.
 ### HTTP Response when Successful
 ```json
 {
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
-      "message":"查詢成功",
-      "positionOption":[
-         {
-            "positionCode":"ha123",
-            "positionName":"哈哈約聘人員"
-         },
-         {
-            "positionCode":"P01",
-            "positionName":"職稱1"
-         },
-         {
-            "positionCode":"P02",
-            "positionName":"職稱2"
-         },
-         {
-            "positionCode":"P03",
-            "positionName":"基層幹部1"
-         },
-         {
-            "positionCode":"S001",
-            "positionName":"行政人員"
-         },
-         {
-            "positionCode":"S002",
-            "positionName":"HR主管"
-         },
-         {
-            "positionCode":"S003",
-            "positionName":"顧問工程師"
-         },
-         {
-            "positionCode":"S004",
-            "positionName":"外籍勞工"
-         }
+  "responseHeader": {
+    "resultMessage": "執行成功",
+    "resultCode": "200"
+  },
+  "responseBody": {
+    "message": "查詢成功",
+    "positionOption": {
+      "id": "positionOption",
+      "name": "職稱",
+      "value": [
+        {
+          "positionCode": "001",
+          "positionName": "主管職(上級)"
+        },
+        {
+          "positionCode": "002",
+          "positionName": "一般職(研究)"
+        }
       ],
-      "gradeOption":[
-         {
-            "gradeCode":"06",
-            "gradeName":"06"
-         }
+      "visible": true
+    },
+    "gradeOption": {
+      "id": "gradeOption",
+      "name": "職級",
+      "value": [],
+      "visible": false
+    },
+    "possieOption": {
+      "id": "possieOption",
+      "name": "職位",
+      "value": [
+        {
+          "possieCode": "0000",
+          "possieName": "測試"
+        },
+        {
+          "possieCode": "0002",
+          "possieName": "SA系統分析"
+        }
       ],
-      "possieOption":[
-         {
-            "possieCode":"3712",
-            "possieName":"技術服務專員"
-         },
-         {
-            "possieCode":"3941",
-            "possieName":"運輸業務高專"
-         },
-         {
-            "possieCode":"4112",
-            "possieName":"製程操作員"
-         },
-         {
-            "possieCode":"4113",
-            "possieName":"製程技術專員"
-         },
-         {
-            "possieCode":"4122",
-            "possieName":"包裝操作員"
-         },
-         {
-            "possieCode":"4151",
-            "possieName":"粉體押出員"
-         }
+      "visible": true
+    },
+    "userTypeOption": {
+      "id": "userTypeOption",
+      "name": "身分別",
+      "value": [
+        {
+          "typeCode": "A",
+          "typeName": "正式人員",
+          "typeEName": "formal Employee"
+        },
+        {
+          "typeCode": "B",
+          "typeName": "特定性契約人員",
+          "typeEName": ""
+        },
+        {
+          "typeCode": "C",
+          "typeName": "外籍人士",
+          "typeEName": ""
+        },
+        {
+          "typeCode": "D",
+          "typeName": "台灣幹部",
+          "typeEName": ""
+        },
+        {
+          "typeCode": "E",
+          "typeName": "一般契約人員",
+          "typeEName": ""
+        },
+        {
+          "typeCode": "F",
+          "typeName": "外派人員",
+          "typeEName": ""
+        }
       ],
-      "userTypeOption":[
-         {
-            "typeCode":"C",
-            "typeName":"外籍人士",
-            "typeEName":""
-         },
-         {
-            "typeCode":"D",
-            "typeName":"台灣幹部",
-            "typeEName":""
-         },
-         {
-            "typeCode":"E",
-            "typeName":"一般契約人員",
-            "typeEName":""
-         },
-         {
-            "typeCode":"F",
-            "typeName":"外派人員",
-            "typeEName":""
-         }
+      "visible": true
+    },
+    "placeOption": {
+      "id": "placeOption",
+      "name": "工作地點",
+      "value": [
+        {
+          "placeCode": "23",
+          "placeName": "昆山",
+          "placeEName": ""
+        },
+        {
+          "placeCode": "28",
+          "placeName": "香港",
+          "placeEName": ""
+        }
       ],
-      "placeOption":[
-         
-         {
-            "placeCode":"TW5",
-            "placeName":"苗栗",
-            "placeEName":""
-         },
-         {
-            "placeCode":"TW6",
-            "placeName":"台中",
-            "placeEName":""
-         },
-         {
-            "placeCode":"TW7",
-            "placeName":"彰化",
-            "placeEName":""
-         },
-         {
-            "placeCode":"TW8",
-            "placeName":"南投",
-            "placeEName":""
-         },
-         {
-            "placeCode":"TW9",
-            "placeName":"雲林",
-            "placeEName":""
-         },
-         {
-            "placeCode":"V01",
-            "placeName":"綿陽市",
-            "placeEName":""
-         },
-         {
-            "placeCode":"V02",
-            "placeName":"廣元市",
-            "placeEName":""
-         },
-         {
-            "placeCode":"V03",
-            "placeName":"南充市",
-            "placeEName":""
-         },
-         {
-            "placeCode":"V04",
-            "placeName":"巴中市",
-            "placeEName":""
-         },
-         {
-            "placeCode":"V05",
-            "placeName":"達州市",
-            "placeEName":""
-         }
-      ]
-   }
+      "visible": true
+    }
+  }
 }
 ```
 
