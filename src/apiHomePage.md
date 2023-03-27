@@ -46,10 +46,16 @@ Here is a JSON representation of request.
 | empFullName | 中文姓名 |
 | empFullEname | 英文姓名 |
 | positionCode | 職稱代碼 |
-| placeCode | 工作地點暗碼 |
+| positionName | 職稱名稱 |
+| placeCode | 工作地點代碼 |
+| placeName | 工作地點名稱 |
+| placeEName | 工作地點英文名稱 |
 | gradeCode | 職級代碼 |
 | possieCode | 職位代碼 |
+| possieName | 職位名稱 |
 | userType | 身分別代碼 |
+| typeName | 身分別名稱 |
+| typeEName | 身分別英文名稱 |
 | support | 是否為支援人力 |
 | saveKey | 存取資料Key |
 | date | 排班日期 |
@@ -74,17 +80,23 @@ Here is a JSON representation of request.
       },
       "employeeList":[
          {
-            "employeeId":"0019",
-            "empFullName":"習O庭",
-            "empFullEname":"NEW0019",
-            "photo":"",
-            "positionCode":"5076",
-            "placeCode":"TW2",
-            "gradeCode":"11",
-            "possieCode":"6715",
-            "userType":"A",
-            "support":false,
-            "saveKey":"108228376095740581741",
+            "employeeId": "0019",
+            "empFullName": "習O庭",
+            "empFullEname": "NEW0019",
+            "photo": "",
+            "positionCode": "5076",
+            "placeCode": "TW2",
+            "gradeCode": "11",
+            "possieCode": "6715",
+            "positionName": "正工程師(一)",
+            "possieName": "海外行政高專",
+            "placeName": "新北",
+            "placeEName": "",
+            "userType": "A",
+            "typeName": "正式人員",
+            "typeEName": "formal Employee",
+            "support": false,
+            "saveKey": "108228376095740581741",
             "shiftList":[
                {
                   "date":"20230301",
