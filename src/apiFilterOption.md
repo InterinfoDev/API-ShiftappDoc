@@ -76,12 +76,19 @@ Here is a JSON representation of request.
       "name": "職稱",
       "value": [
         {
-          "positionCode": "001",
-          "positionName": "主管職(上級)"
+          "code": "001",
+          "name": "主管職(上級)",
+          "ename": ""
         },
         {
-          "positionCode": "002",
-          "positionName": "一般職(研究)"
+          "code": "002",
+          "name": "一般職(研究)",
+          "ename": ""
+        },
+        {
+          "code": "003",
+          "name": "一般職(行政)",
+          "ename": ""
         }
       ],
       "visible": true
@@ -97,12 +104,14 @@ Here is a JSON representation of request.
       "name": "職位",
       "value": [
         {
-          "possieCode": "0000",
-          "possieName": "測試"
+          "code": "0000",
+          "name": "測試",
+          "ename": ""
         },
         {
-          "possieCode": "0002",
-          "possieName": "SA系統分析"
+          "code": "0002",
+          "name": "SA系統分析",
+          "ename": ""
         }
       ],
       "visible": true
@@ -112,34 +121,14 @@ Here is a JSON representation of request.
       "name": "身分別",
       "value": [
         {
-          "typeCode": "A",
-          "typeName": "正式人員",
-          "typeEName": "formal Employee"
+          "code": "A",
+          "name": "正式人員",
+          "ename": "formal Employee"
         },
         {
-          "typeCode": "B",
-          "typeName": "特定性契約人員",
-          "typeEName": ""
-        },
-        {
-          "typeCode": "C",
-          "typeName": "外籍人士",
-          "typeEName": ""
-        },
-        {
-          "typeCode": "D",
-          "typeName": "台灣幹部",
-          "typeEName": ""
-        },
-        {
-          "typeCode": "E",
-          "typeName": "一般契約人員",
-          "typeEName": ""
-        },
-        {
-          "typeCode": "F",
-          "typeName": "外派人員",
-          "typeEName": ""
+          "code": "B",
+          "name": "特定性契約人員",
+          "ename": ""
         }
       ],
       "visible": true
@@ -149,14 +138,14 @@ Here is a JSON representation of request.
       "name": "工作地點",
       "value": [
         {
-          "placeCode": "23",
-          "placeName": "昆山",
-          "placeEName": ""
+          "code": "23",
+          "name": "昆山",
+          "ename": ""
         },
         {
-          "placeCode": "28",
-          "placeName": "香港",
-          "placeEName": ""
+          "code": "28",
+          "name": "香港",
+          "ename": ""
         }
       ],
       "visible": true
