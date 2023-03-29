@@ -88,6 +88,7 @@ Here is a JSON representation of request.
             "positionCode": "5076",
             "placeCode": "TW2",
             "gradeCode": "11",
+            "gradeName": "11",
             "possieCode": "6715",
             "positionName": "正工程師(一)",
             "possieName": "海外行政高專",
