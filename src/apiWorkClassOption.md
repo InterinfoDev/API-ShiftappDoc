@@ -54,7 +54,7 @@ Here is a JSON representation of request.
 | isClassToVaca | 是否為班轉假 |
 | vacationCode | 班轉假的假別代碼 |
 | vacationName | 班轉假假別名稱 |
-| edit | 特殊日期欄位可不可以編輯 |
+| vacationEdit | 特殊日期欄位可不可以編輯 |
 | vacationOption | 下拉選項，如果是班轉假且此欄位為空，那輸入方式為時間輸入(也就是有兩個輸入框) |
 | resultMessage | 結果訊息 |
 | resultCode | 結果代號 |
@@ -81,7 +81,7 @@ Here is a JSON representation of request.
             "isClassToVaca": true, 
             "vacationCode": "M70",
             "vacationName": "婚假(天)",
-            "edit": true,
+            "vacationEdit": true,
             "vacationOption": [
                 {
                     "optionName": "請全天",
@@ -99,7 +99,7 @@ Here is a JSON representation of request.
             "isClassToVaca": true, 
             "vacationCode": "M70",
             "vacationName": "婚假(天)",
-            "edit": true,
+            "vacationEdit": true,
             "vacationOption": [
                 {
                     "optionName": "請全天",
