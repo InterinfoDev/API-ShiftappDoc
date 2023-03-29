@@ -51,6 +51,7 @@ Here is a JSON representation of request.
 | placeName | 工作地點名稱 |
 | placeEName | 工作地點英文名稱 |
 | gradeCode | 職級代碼 |
+| gradeName | 職級名稱 |
 | possieCode | 職位代碼 |
 | possieName | 職位名稱 |
 | userType | 身分別代碼 |
