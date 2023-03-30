@@ -61,6 +61,12 @@ Here is a JSON representation of request.
 | saveKey | 存取資料Key |
 | date | 排班日期 |
 | classCode | 班別代號 |
+| className | 班別名稱 |
+| classCo | 班別代號 |
+| classCode | 班別代號 |
+| startTime | 班別起始時間 |
+| endTime | 班別結束時間 |
+| workHour | 班別工時 |
 | edit | 是否可編輯 |
 | startDate | 考勤起日 |
 | endDate | 考勤迄日 |
@@ -102,18 +108,36 @@ Here is a JSON representation of request.
             "shiftList":[
                {
                   "date":"20230301",
-                  "classCode":"01",
-                  "edit":true
+                  "classInfo": {
+                      "classCode": "04",
+                      "className": "夜班",
+                      "startTime": "1600",
+                      "endTime": "2130",
+                      "workHour": 8.0
+                  },
+                  "edit": true
                },
                {
                   "date":"20230302",
-                  "classCode":"04",
-                  "edit":true
+                  "classInfo": {
+                      "classCode": "04",
+                      "className": "夜班",
+                      "startTime": "1600",
+                      "endTime": "2130",
+                      "workHour": 8.0
+                  },
+                  "edit": true
                },
                {
                   "date":"20230303",
-                  "classCode":"04",
-                  "edit":true
+                  "classInfo": {
+                      "classCode": "O",
+                      "className": "例假日",
+                      "startTime": "",
+                      "endTime": "",
+                      "workHour": 0.0
+                  },
+                  "edit": true
                }
             ]
          }
