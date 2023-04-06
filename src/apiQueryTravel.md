@@ -97,7 +97,7 @@ Here is a JSON representation of request.
          }
       ],
       "monthDetail":{
-         "tatolDays":5
+         "totalDays":5
       }
    }
 }
