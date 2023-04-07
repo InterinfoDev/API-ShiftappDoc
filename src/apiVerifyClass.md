@@ -31,7 +31,7 @@ Here is a JSON representation of request.
     "endDate":"20230408",
     "allClass":[{
       "employeeId":"00001", 
-       "class":[{
+       "dailyClass":[{
         "classCode":"00", 
         "vacationCode":"", 
         "date":"20230401", 
