@@ -25,11 +25,12 @@ Here is a JSON representation of request.
    },
    "requestBody":{
       "companyId":"TW",
-      "depNumber":534,
+      "depNumber":82,
       "positionCode":"",
       "possieCode":"",
       "userType":"",
-      "attendYM":"202112"
+      "attendYM":"202212"
+      "grade":"11"
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
@@ -51,6 +52,7 @@ Here is a JSON representation of request.
 | positionCode |  | String | 職稱 | N | n/a |
 | userType |  | String | 身分別 | N | n/a |
 | possieCode |  | String | 職位 | N | n/a |
+| grade | 11  | String | 職等 | N | n/a |
 
 
 ### requestBody FieldName
