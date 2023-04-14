@@ -17,19 +17,20 @@ POST
 | uid | 98599308101484732326 | String | 需透過apiLogin取得
 | right | 51341911904173543336756162544864820 | String | 需透過apiLogin取得 |
 | locale | TW | String | 語系 |
-| translateId | xxx | String | 翻譯對應ID |
-| translateContent | content | String | 翻譯內文 |
+| deviceType | IOS | String | 裝置類型 |
 
 ### JSON representation
 Here is a JSON representation of request.
 ```json
 {
-  "requestHeader": {
-  },
-  "requestBody": {
-  },
-  "uid":"98599308101484732326",
-  "right":"51341911904173543336756162544864820"
+   "requestHeader":{
+   },
+   "requestBody":{
+      "locale":"US",
+      "deviceType":"IOS"
+   },
+   "uid":"98599308101484732326",
+   "right":"51341911904173543336756162544864820"
 }
 ```
 
@@ -42,16 +43,16 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
+| locale | US | String | 語系 | Y | n/a |
+| deviceType | IOS | String | 裝置類型 | Y | n/a 
 
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| noteId | 備註代碼 |
-| content | 內容 |
+| messageId | 訊息代碼 |
+| content | 翻譯內容 |
 | resultMessage | 結果訊息 |
 | resultCode | 結果代號 |
-| message | 訊息 |
-
 
 ### HTTP Response when Successful
 ```json
@@ -63,12 +64,12 @@ Here is a JSON representation of request.
    "responseBody":{
       "translateList":[
          {
-            "translateId":"A",
-            "translateContent":"Seniority & Experience"
+            "content":"Name",
+            "messageId":"employeeName"
          },
          {
-            "translateId":"B",
-            "translateContent":"Training Execution Statistics (By Department)"
+            "content":"ID",
+            "messageId":"empId"
          }
       ]
    }
