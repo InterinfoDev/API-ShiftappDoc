@@ -44,7 +44,7 @@ Here is a JSON representation of request.
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | locale | US | String | 語系 | Y | n/a |
-| deviceType | IOS | String | 裝置類型 | Y | n/a 
+| deviceType | IOS | String | 裝置類型(IOS / ANDROID) | Y | n/a 
 
 ### requestBody FieldName
 | FieldName | Description |
