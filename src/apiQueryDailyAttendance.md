@@ -43,6 +43,7 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | depNumber | 495 | Integer | 部門代碼 | n | n/a |
 | date | "20230315" | String | 日期 | n | n/a |
+| companyId | "TW" | String | 公司別 | n | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
