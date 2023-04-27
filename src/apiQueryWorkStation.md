@@ -923,6 +923,20 @@ Here is a JSON representation of request.
 }
 ```
 
+### HTTP Response when No Data
+```json
+{
+    "responseHeader": {
+        "resultMessage": "執行成功",
+        "resultCode": "200"
+    },
+    "responseBody": {
+        "message": "查無資料",
+        "timeBlock": []
+    }
+}
+```
+
 ### HTTP Response when Failed
 ```json
 {
