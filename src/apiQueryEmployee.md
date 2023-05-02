@@ -109,6 +109,12 @@ Here is a JSON representation of request.
             "value":"eline",
             "visible":true
          },
+          {
+            "id":"sex",
+            "name":"性別",
+            "value":"M",
+            "visible":false
+         },
          {
             "id":"depFullName",
             "name":"工作單位",
