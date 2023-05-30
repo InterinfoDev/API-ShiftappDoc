@@ -183,19 +183,19 @@ Here is a JSON representation of request.
          },
          {
             "id":"emergencyContactName",
-            "name":"緊急聯絡人姓名",
+            "name":"姓名",
             "value":"測試B",
             "visible":true
          },
          {
             "id":"emergencyContactRelationship",
-            "name":"緊急連絡人關係",
+            "name":"關係",
             "value":"",
             "visible":false
          },
          {
             "id":"emergencyContactPhone",
-            "name":"緊急連絡人行動電話",
+            "name":"電話",
             "value":"0932-123456",
             "visible":true
          },
