@@ -45,6 +45,7 @@ Here is a JSON representation of request.
 | employeeId | 員工編號 |
 | empFullName | 中文姓名 |
 | empFullEname | 英文姓名 |
+| sex | 性別 |
 | depNumber | 部門暗碼 |
 | depFullName | 部門名稱 |
 | depCode | 部門代號 |
@@ -96,6 +97,7 @@ Here is a JSON representation of request.
             "depNumber": 495,
             "depFullName": "企劃部",
             "depCode": "55",
+            "sex": "M",
             "photo": "",
             "positionCode": "5076",
             "placeCode": "TW2",
