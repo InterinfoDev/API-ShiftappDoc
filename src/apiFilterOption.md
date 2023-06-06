@@ -24,7 +24,9 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
-    "companyId": "TW"
+    "companyId": "TW",
+    "depNumber": 495,
+    "shiftYM": "202306"
   },
   "uid":"98599308101484732326",
   "right":"51341911904173543336756162544864820"
@@ -41,6 +43,8 @@ Here is a JSON representation of request.
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | companyId | TW | String | 公司別代碼 | Y | n/a |
+| depNumber | TW | Integer | 部門代碼 | Y | n/a |
+| shiftYM | TW | String | 排班年月 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
