@@ -43,6 +43,7 @@ Here is a JSON representation of request.
 | email | 信箱帳號 |
 | empFullName | 中文姓名 |
 | empFullEname | 英文姓名 |
+| sex | 性別 |
 | photo | 照片 |
 | depNumber | 部門代號(暗碼) |
 | depFullName | 部門全名 |
@@ -67,6 +68,7 @@ Here is a JSON representation of request.
       "empFullName":"系統管理員",
       "empFullEname":"Administrator",
       "photo":"Img base64",
+      "sex":"F",
       "depNumber":1,
       "depFullName":"英特內股份有限公司",
       "positionName":"系統管理員"
