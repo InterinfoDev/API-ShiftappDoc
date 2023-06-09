@@ -25,8 +25,8 @@ Here is a JSON representation of request.
    },
    "requestBody":{
       "depNumber": 495,
-      "yymm": "202303",
-      "file": ["202303排班表.xls","base64"],
+      "shiftYymm": "202303",
+      "file": [fileName:"202303排班表.xls",fileData:"base64"],
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
