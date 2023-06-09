@@ -44,7 +44,7 @@ Here is a JSON representation of request.
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | depNumber | 495 | Integer | 部門代號 | n | n/a |
 | yymm | "202303" | String | 日期年月 | n | n/a |
-| file | ["202303排班表.xls","base64"] | Array | 匯入檔案 | n | n/a |
+| file | [fileName:"202303排班表.xls",fileData:"base64"] | Array | 匯入檔案 | n | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
