@@ -24,6 +24,7 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
+    "type":"xlsx"
     "companyId":"TW",
     "depNumber":495,
     "shiftYM":"202303",
@@ -56,6 +57,7 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
+| type | 類型(xls or xlsx) |
 | companyId | 公司別 |
 | depNumber | 部門代碼 |
 | shiftYM | 排班年月 |
@@ -72,30 +74,8 @@ Here is a JSON representation of request.
 
 ### HTTP Response when Successful
 ```json
-{
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
-      "message":"匯出成功"
-   }
-}
+成功將直接顯示檔案blob，請務必參考content type
 ```
-
-### HTTP Response when No Data
-{
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
-      "message":"檢核完成，點選夥伴姓名，查看檢核結果",
-      "verify":true,
-      "result":[]
-   }
-}
-
 
 ### HTTP Response when Failed
 ```json
