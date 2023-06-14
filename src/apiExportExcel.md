@@ -32,6 +32,7 @@ Here is a JSON representation of request.
     "endDate":"20230331",
     "allClass":[{
       "employeeId":"00001", 
+      "employeeFullName":"王大帥"
        "dailyClass":[{
         "classCode":"00", 
         "vacationCode":"", 
