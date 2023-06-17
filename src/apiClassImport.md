@@ -54,7 +54,7 @@ Here is a JSON representation of request.
 | shiftYM | 排班日期年月 |
 | startDate | 起始日期 |
 | endDate | 結束日期 |
-| classEmpolyeeList | 排班人員資料物件 |
+| classEmployeeList | 排班人員資料物件 |
 | employeeId | 員工編號 |
 | classImportExcelList | 排班資料物件 |
 | classCode | 班別代碼 |
@@ -79,7 +79,7 @@ Here is a JSON representation of request.
       "shiftYM":"202303",
       "startDate":"2023/03/01",
       "endDate":"2023/03/31",
-      "classEmpolyeeList":[
+      "classEmployeeList":[
          {
             "employeeId":"K20220035",
             "classImportExcelList":[
