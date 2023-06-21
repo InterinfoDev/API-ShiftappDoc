@@ -1,9 +1,9 @@
-# apiDeleteNote
+# apiDelNote
 刪除備註
 
 ### HTTP Request
 ```
-http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiDeleteNote
+http://59.124.100.151:8090/servlet/apiM/shiftAPP/V1/interfaces/apiDelNote
 ```
 
 ### HTTP Request Mehod
