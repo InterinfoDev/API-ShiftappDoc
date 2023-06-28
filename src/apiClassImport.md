@@ -25,7 +25,7 @@ Here is a JSON representation of request.
    },
    "requestBody":{
       "depNumber": 495,
-      "shiftYymm": "202303",
+      "shiftYM": "202303",
       "file": {"fileName":"202303排班表.xls", "fileData":"base64"},
    },
    "uid":"98599308101484732326",
@@ -43,7 +43,7 @@ Here is a JSON representation of request.
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | depNumber | 495 | Integer | 部門代號 | n | n/a |
-| yymm | "202303" | String | 日期年月 | n | n/a |
+| shiftYM | "202303" | String | 日期年月 | n | n/a |
 | file | {"fileName":"202303排班表.xls", "fileData":"base64"} | Array | 匯入檔案 | n | n/a |
 
 ### requestBody FieldName
