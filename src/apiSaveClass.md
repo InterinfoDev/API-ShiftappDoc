@@ -79,7 +79,7 @@ Here is a JSON representation of request.
    },
    "responseBody":{
       "message":"檢核完成，點選夥伴姓名，查看檢核結果",
-      "verify":false,
+      "success":false,
       "result":[
          {
             "check":[
