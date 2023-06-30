@@ -80,17 +80,6 @@ Here is a JSON representation of request.
    "responseBody":{
       "message":"檢核完成，點選夥伴姓名，查看檢核結果",
       "success":false,
-      "result":[
-         {
-            "check":[
-               "員工編號：00001(報表一TEST1105)，2023/04月休應為10.0天，目前排休11.0天，是否繼續"
-            ],
-            "error":[
-               "員工編號：00001(報表一TEST1105)，從20230327連續排上班至20230402總計7天已超過7天"
-            ],
-            "employeeId":"00001"
-         }
-      ]
    }
 }
 ```
