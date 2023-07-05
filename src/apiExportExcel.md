@@ -21,31 +21,36 @@ POST
 Here is a JSON representation of request.
 ```json
 {
-  "requestHeader": {
-  },
-  "requestBody": {
-    "type":"xlsx"
-    "companyId":"TW",
-    "depNumber":495,
-    "shiftYM":"202303",
-    "startDate":"20230301",
-    "endDate":"20230331",
-    "allClass":[{
-      "employeeId":"00001", 
-      "employeeFullName":"王大帥"
-       "dailyClass":[{
-        "classCode":"00", 
-        "vacationCode":"", 
-        "date":"20230401", 
-        "startTime":"", 
-        "endTime":"", 
-        "optionData":"", 
-        "specialDate":""
-        }]
-       }]
-      },
-  "uid":"98599308101484732326",
-  "right":"51341911904173543336756162544864820"
+   "requestHeader":{
+      
+   },
+   "requestBody":{
+      "type":"xlsx",
+      "companyId":"TW",
+      "depNumber":495,
+      "shiftYM":"202303",
+      "startDate":"20230301",
+      "endDate":"20230331",
+      "allClass":[
+         {
+            "employeeId":"00001",
+            "employeeFullName":"王大帥",
+            "dailyClass":[
+               {
+                  "classCode":"00",
+                  "vacationCode":"",
+                  "date":"20230401",
+                  "startTime":"",
+                  "endTime":"",
+                  "optionData":"",
+                  "specialDate":""
+               }
+            ]
+         }
+      ]
+   },
+   "uid":"98599308101484732326",
+   "right":"51341911904173543336756162544864820"
 }
 ```
 
