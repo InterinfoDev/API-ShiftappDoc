@@ -45,14 +45,13 @@ Here is a JSON representation of request.
 ### HTTP Response when Successful
 ```json
 {
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
-      "result":true,
-      "message":"驗證成功"
-   }
+    "responseHeader": {
+        "resultMessage": "執行成功",
+        "resultCode": "200"
+    },
+    "responseBody": {
+        "result": true
+    }
 }
 ```
 
@@ -67,6 +66,7 @@ Here is a JSON representation of request.
         "resultCode": "500"
     },
     "responseBody": {
+        "result": false
     }
 }
 ```
