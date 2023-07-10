@@ -55,14 +55,11 @@ Here is a JSON representation of request.
 }
 ```
 
-### HTTP Response when No Data
-此程式不會有查無資料發生
-
 ### HTTP Response when Failed
 ```json
 {
     "responseHeader": {
-        "resultMessage": "xxxxx",
+        "resultMessage": "驗證失敗，請重新確認帳號密碼",
         "resultCode": "500"
     },
     "responseBody": {
