@@ -27,7 +27,7 @@ POST
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | employeeId | 0169 | String | 員工編號 | Y | n/a |
-| travelYM | 202203 | String | 年月 | Y | n/a |
+| yymm | 202203 | String | 年月 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
@@ -51,7 +51,7 @@ Here is a JSON representation of request.
    },
    "requestBody":{
       "employeeId":"0169",
-      "travelYM":"202203"
+      "yymm":"202203"
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
