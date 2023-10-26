@@ -27,7 +27,7 @@ POST
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | employeeId | admin | String | 員工編號 | Y | n/a |
-| overtimeYM | 202201 | String | 查詢年月 | Y | n/a |
+| yymm | 202201 | String | 查詢年月 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
@@ -48,7 +48,7 @@ Here is a JSON representation of request.
    },
    "requestBody":{
       "employeeId":"admin",
-      "overtimeYM":"202201"
+      "yymm":"202201"
    },
    "uid":"98599308101484732326",
    "right":"51341911904173543336756162544864820"
