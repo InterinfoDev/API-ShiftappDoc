@@ -96,8 +96,8 @@ Here is a JSON representation of request.
                         "outCard": "",
                         "attendState": [
                             {
-                                "tag": "曠職",
                                 "textColor": "B53CFF",
+                                "state": "曠職",
                                 "baseColor": "F0D8FF"
                             }
                         ],
@@ -130,8 +130,8 @@ Here is a JSON representation of request.
                         "outCard": "",
                         "attendState": [
                             {
-                                "tag": "曠職",
                                 "textColor": "B53CFF",
+                                "state": "曠職",
                                 "baseColor": "F0D8FF"
                             }
                         ],
@@ -165,8 +165,8 @@ Here is a JSON representation of request.
                         "outCard": "",
                         "attendState": [
                             {
-                                "tag": "曠職",
                                 "textColor": "B53CFF",
+                                "state": "曠職",
                                 "baseColor": "F0D8FF"
                             }
                         ],
@@ -185,8 +185,8 @@ Here is a JSON representation of request.
                         "outCard": "",
                         "attendState": [
                             {
-                                "tag": "曠職",
                                 "textColor": "B53CFF",
+                                "state": "曠職",
                                 "baseColor": "F0D8FF"
                             }
                         ],
@@ -249,8 +249,8 @@ Here is a JSON representation of request.
                         "outCard": "",
                         "attendState": [
                             {
-                                "tag": "曠職",
                                 "textColor": "B53CFF",
+                                "state": "曠職",
                                 "baseColor": "F0D8FF"
                             }
                         ],
@@ -269,8 +269,8 @@ Here is a JSON representation of request.
                         "outCard": "",
                         "attendState": [
                             {
-                                "tag": "曠職",
                                 "textColor": "B53CFF",
+                                "state": "曠職",
                                 "baseColor": "F0D8FF"
                             }
                         ],
