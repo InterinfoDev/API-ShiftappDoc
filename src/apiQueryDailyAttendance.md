@@ -56,879 +56,237 @@ Here is a JSON representation of request.
 | photo | 照片 |
 | empFullName | 中文姓名 |
 | empFullEngName | 英文姓名 |
-| workclass | 班別代碼 |
-| stime | 班別起始時間 |
-| etime | 班別結束時間 |
+| workClass | 班別代碼 |
+| classStartTime | 班別起始時間 |
+| classEndTime | 班別結束時間 |
 | inCard | 進卡時間 |
 | outCard | 出卡時間 |
-| attendError | 異常 |
-| errorColor | 異常顏色色碼 |
-| errorWordColor | 異常字色色碼 |
-| errorSort | 異常排序規則，由0開始 ， 0-->曠職 1-->遲到 2-->早退 3-->無異常(放空值)|
+| attendState | 考勤狀態 |
+| state | 狀態 |
+| textColor | 字色色碼 |
+| baseColor | 底色色碼 |
+| errorSort | 異常排序規則|
 
 ### HTTP Response when Successful
 ```json
-   {
-   "responseHeader":{
-      "resultMessage":"執行成功",
-      "resultCode":"200"
-   },
-   "responseBody":{
-      "message":"查詢成功",
-      "attendanceList":[
-         {
-            "keyName":"出差",
-            "keyEngName":"travel",
-            "keyPeople":0,
-            "attendanceDetailList":[
-               
-            ]
-         },
-         {
-            "keyName":"應刷未刷",
-            "keyEngName":"notCard",
-            "keyPeople":0,
-            "attendanceDetailList":[
-               
-            ]
-         },
-         {
-            "keyName":"請假",
-            "keyEngName":"vacation",
-            "keyPeople":0,
-            "attendanceDetailList":[
-               
-            ]
-         },
-         {
-            "keyName":"免出勤",
-            "keyEngName":"nowork",
-            "keyPeople":0,
-            "attendanceDetailList":[
-               
-            ]
-         },
-         {
-            "keyName":"實際出勤",
-            "keyEngName":"realwork",
-            "keyPeople":19,
-            "attendanceDetailList":[
-               {
-                  "photo":"hrm/photo/1664852477608_Screenshot_20220928-090404580.jpg",
-                  "empFullName":"充O棋",
-                  "empFullEngName":"NEW0035",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"行事曆測試",
-                  "empFullEngName":"",
-                  "workclass":"03",
-                  "stime":"0930",
-                  "etime":"2100",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"hrm/photo/1677221952517_1673346388101_我是遺照攝影師1-1.jpg",
-                  "empFullName":"報表一TEST1105",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0830",
-                  "etime":"1730",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"習O庭",
-                  "empFullEngName":"NEW0019",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"hrm/photo/1649233698275_test.png",
-                  "empFullName":"李O鈞",
-                  "empFullEngName":"NEW00356",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"辛O疾",
-                  "empFullEngName":"NEW0875",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"sOf",
-                  "empFullEngName":"",
-                  "workclass":"03",
-                  "stime":"0930",
-                  "etime":"2100",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"融O倫",
-                  "empFullEngName":"NEW1669",
-                  "workclass":"S10",
-                  "stime":"2200",
-                  "etime":"3000",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"池O娟",
-                  "empFullEngName":"NEW2013070003",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"H310測試",
-                  "empFullEngName":"",
-                  "workclass":"S01",
-                  "stime":"0800",
-                  "etime":"1600",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"調職測試",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"hrm/photo/1673346388101_我是遺照攝影師1-1.jpg",
-                  "empFullName":"雙O菁",
-                  "empFullEngName":"NEW0002",
-                  "workclass":"01",
-                  "stime":"0830",
-                  "etime":"1730",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"AAAA",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"企劃人員",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"測試一號",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"加班測試",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"test",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"增加測試",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"/hrm4/photo/1634613792829_TEST.png",
-                  "empFullName":"test1019",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               }
-            ]
-         },
-         {
-            "keyName":"應出勤",
-            "keyEngName":"work",
-            "keyPeople":19,
-            "attendanceDetailList":[
-               {
-                  "photo":"hrm/photo/1677221952517_1673346388101_我是遺照攝影師1-1.jpg",
-                  "empFullName":"報表一TEST1105",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0830",
-                  "etime":"1730",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"hrm/photo/1664852477608_Screenshot_20220928-090404580.jpg",
-                  "empFullName":"充O棋",
-                  "empFullEngName":"NEW0035",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"習O庭",
-                  "empFullEngName":"NEW0019",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"hrm/photo/1649233698275_test.png",
-                  "empFullName":"李O鈞",
-                  "empFullEngName":"NEW00356",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"辛O疾",
-                  "empFullEngName":"NEW0875",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"sOf",
-                  "empFullEngName":"",
-                  "workclass":"03",
-                  "stime":"0930",
-                  "etime":"2100",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"融O倫",
-                  "empFullEngName":"NEW1669",
-                  "workclass":"S10",
-                  "stime":"2200",
-                  "etime":"3000",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"池O娟",
-                  "empFullEngName":"NEW2013070003",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"H310測試",
-                  "empFullEngName":"",
-                  "workclass":"S01",
-                  "stime":"0800",
-                  "etime":"1600",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"調職測試",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"hrm/photo/1673346388101_我是遺照攝影師1-1.jpg",
-                  "empFullName":"雙O菁",
-                  "empFullEngName":"NEW0002",
-                  "workclass":"01",
-                  "stime":"0830",
-                  "etime":"1730",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"AAAA",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"企劃人員",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"測試一號",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"加班測試",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"test",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"行事曆測試",
-                  "empFullEngName":"",
-                  "workclass":"03",
-                  "stime":"0930",
-                  "etime":"2100",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"增加測試",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"/hrm4/photo/1634613792829_TEST.png",
-                  "empFullName":"test1019",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               }
-            ]
-         },
-         {
-            "keyName":"單位總人數",
-            "keyEngName":"allpeople",
-            "keyPeople":19,
-            "attendanceDetailList":[
-               {
-                  "photo":"hrm/photo/1664852477608_Screenshot_20220928-090404580.jpg",
-                  "empFullName":"充O棋",
-                  "empFullEngName":"NEW0035",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"",
-                  "empFullName":"行事曆測試",
-                  "empFullEngName":"",
-                  "workclass":"03",
-                  "stime":"0930",
-                  "etime":"2100",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"",
-                  "errorColor":"",
-                  "errorWordColor":"",
-                  "errorSort":3
-               },
-               {
-                  "photo":"hrm/photo/1677221952517_1673346388101_我是遺照攝影師1-1.jpg",
-                  "empFullName":"報表一TEST1105",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0830",
-                  "etime":"1730",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"習O庭",
-                  "empFullEngName":"NEW0019",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"hrm/photo/1649233698275_test.png",
-                  "empFullName":"李O鈞",
-                  "empFullEngName":"NEW00356",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"辛O疾",
-                  "empFullEngName":"NEW0875",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"sOf",
-                  "empFullEngName":"",
-                  "workclass":"03",
-                  "stime":"0930",
-                  "etime":"2100",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"融O倫",
-                  "empFullEngName":"NEW1669",
-                  "workclass":"S10",
-                  "stime":"2200",
-                  "etime":"3000",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"池O娟",
-                  "empFullEngName":"NEW2013070003",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"H310測試",
-                  "empFullEngName":"",
-                  "workclass":"S01",
-                  "stime":"0800",
-                  "etime":"1600",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"調職測試",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"hrm/photo/1673346388101_我是遺照攝影師1-1.jpg",
-                  "empFullName":"雙O菁",
-                  "empFullEngName":"NEW0002",
-                  "workclass":"01",
-                  "stime":"0830",
-                  "etime":"1730",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"AAAA",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"企劃人員",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"測試一號",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"加班測試",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"test",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"",
-                  "empFullName":"增加測試",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               },
-               {
-                  "photo":"/hrm4/photo/1634613792829_TEST.png",
-                  "empFullName":"test1019",
-                  "empFullEngName":"",
-                  "workclass":"00",
-                  "stime":"0800",
-                  "etime":"1700",
-                  "inCard":"",
-                  "outCard":"",
-                  "attendError":"曠職",
-                  "errorColor":"F0D8FF",
-                  "errorWordColor":"B53CFF",
-                  "errorSort":0
-               }
-            ]
-         }
-      ]
-   }
+{
+    "responseHeader": {
+        "resultMessage": "執行成功",
+        "resultCode": "200"
+    },
+    "responseBody": {
+        "message": "查詢成功",
+        "attendanceList": [
+            {
+                "key": "allPeople",
+                "title": "單位總人數",
+                "visible": true,
+                "people": 3,
+                "attendanceDetailList": [
+                    {
+                        "photo": "hrm/photo/1697528779798_200109_AdoptingKoala08.jpg",
+                        "employeeId": "10108001",
+                        "empFullName": "鄭O隆",
+                        "empFullEngName": "L***y",
+                        "workClass": "D",
+                        "workClassName": "總公司班",
+                        "classStartTime": "0900",
+                        "classEndTime": "1800",
+                        "inCard": "",
+                        "outCard": "",
+                        "attendState": [
+                            {
+                                "tag": "曠職",
+                                "textColor": "B53CFF",
+                                "baseColor": "F0D8FF"
+                            }
+                        ],
+                        "errorSort": 6
+                    },
+                    {
+                        "photo": "hrm/photo/1677145343441_貓LOG測試.jpg",
+                        "employeeId": "10905012",
+                        "empFullName": "蔣O菱",
+                        "empFullEngName": "V**a",
+                        "workClass": "D",
+                        "workClassName": "總公司班",
+                        "classStartTime": "0900",
+                        "classEndTime": "1800",
+                        "inCard": "",
+                        "outCard": "",
+                        "attendState": [],
+                        "errorSort": 1
+                    },
+                    {
+                        "photo": "hrm/photo/1677145343441_貓LOG測試.jpg",
+                        "employeeId": "11001024",
+                        "empFullName": "白O閔",
+                        "empFullEngName": "J****n",
+                        "workClass": "D",
+                        "workClassName": "總公司班",
+                        "classStartTime": "0900",
+                        "classEndTime": "1800",
+                        "inCard": "",
+                        "outCard": "",
+                        "attendState": [
+                            {
+                                "tag": "曠職",
+                                "textColor": "B53CFF",
+                                "baseColor": "F0D8FF"
+                            }
+                        ],
+                        "errorSort": 6
+                    }
+                ]
+            },
+            {
+                "key": "exemptAttend",
+                "title": "免出勤",
+                "visible": true,
+                "people": 0,
+                "attendanceDetailList": []
+            },
+            {
+                "key": "shouldAttend",
+                "title": "應出勤",
+                "visible": true,
+                "people": 2,
+                "attendanceDetailList": [
+                    {
+                        "photo": "hrm/photo/1697528779798_200109_AdoptingKoala08.jpg",
+                        "employeeId": "10108001",
+                        "empFullName": "鄭O隆",
+                        "empFullEngName": "L***y",
+                        "workClass": "D",
+                        "workClassName": "總公司班",
+                        "classStartTime": "0900",
+                        "classEndTime": "1800",
+                        "inCard": "",
+                        "outCard": "",
+                        "attendState": [
+                            {
+                                "tag": "曠職",
+                                "textColor": "B53CFF",
+                                "baseColor": "F0D8FF"
+                            }
+                        ],
+                        "errorSort": 6
+                    },
+                    {
+                        "photo": "hrm/photo/1677145343441_貓LOG測試.jpg",
+                        "employeeId": "11001024",
+                        "empFullName": "白O閔",
+                        "empFullEngName": "J****n",
+                        "workClass": "D",
+                        "workClassName": "總公司班",
+                        "classStartTime": "0900",
+                        "classEndTime": "1800",
+                        "inCard": "",
+                        "outCard": "",
+                        "attendState": [
+                            {
+                                "tag": "曠職",
+                                "textColor": "B53CFF",
+                                "baseColor": "F0D8FF"
+                            }
+                        ],
+                        "errorSort": 6
+                    }
+                ]
+            },
+            {
+                "key": "vacation",
+                "title": "請假",
+                "visible": true,
+                "people": 0,
+                "attendanceDetailList": []
+            },
+            {
+                "key": "travel",
+                "title": "出差",
+                "visible": true,
+                "people": 1,
+                "attendanceDetailList": [
+                    {
+                        "photo": "hrm/photo/1677145343441_貓LOG測試.jpg",
+                        "employeeId": "10905012",
+                        "empFullName": "蔣O菱",
+                        "empFullEngName": "V**a",
+                        "workClass": "D",
+                        "workClassName": "總公司班",
+                        "classStartTime": "0900",
+                        "classEndTime": "1800",
+                        "inCard": "",
+                        "outCard": "",
+                        "attendState": [],
+                        "errorSort": 1
+                    }
+                ]
+            },
+            {
+                "key": "notCard",
+                "title": "應刷未刷",
+                "visible": false,
+                "people": 0,
+                "attendanceDetailList": []
+            },
+            {
+                "key": "absent",
+                "title": "曠職",
+                "visible": true,
+                "people": 2,
+                "attendanceDetailList": [
+                    {
+                        "photo": "hrm/photo/1697528779798_200109_AdoptingKoala08.jpg",
+                        "employeeId": "10108001",
+                        "empFullName": "鄭O隆",
+                        "empFullEngName": "L***y",
+                        "workClass": "D",
+                        "workClassName": "總公司班",
+                        "classStartTime": "0900",
+                        "classEndTime": "1800",
+                        "inCard": "",
+                        "outCard": "",
+                        "attendState": [
+                            {
+                                "tag": "曠職",
+                                "textColor": "B53CFF",
+                                "baseColor": "F0D8FF"
+                            }
+                        ],
+                        "errorSort": 6
+                    },
+                    {
+                        "photo": "hrm/photo/1677145343441_貓LOG測試.jpg",
+                        "employeeId": "11001024",
+                        "empFullName": "白O閔",
+                        "empFullEngName": "J****n",
+                        "workClass": "D",
+                        "workClassName": "總公司班",
+                        "classStartTime": "0900",
+                        "classEndTime": "1800",
+                        "inCard": "",
+                        "outCard": "",
+                        "attendState": [
+                            {
+                                "tag": "曠職",
+                                "textColor": "B53CFF",
+                                "baseColor": "F0D8FF"
+                            }
+                        ],
+                        "errorSort": 6
+                    }
+                ]
+            },
+            {
+                "key": "attend",
+                "title": "實際出勤",
+                "visible": true,
+                "people": 0,
+                "attendanceDetailList": []
+            }
+        ]
+    }
 }
 ```
 
