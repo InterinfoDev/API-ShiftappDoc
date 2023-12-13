@@ -75,7 +75,6 @@ Here is a JSON representation of request.
 | startDate | 考勤起日 |
 | endDate | 考勤迄日 |
 | totalHour | 部門排班時數上限 |
-| isClassToVaca | 是否為班轉假班別 |
 | vacationStartTime | 請假起始時間 |
 | vacationEndTime | 請假結束時間 |
 | specialDate | 特殊日期(會給日期) |
@@ -126,8 +125,7 @@ Here is a JSON representation of request.
                       "className": "夜班",
                       "startTime": "1600",
                       "endTime": "2130",
-                      "workHour": 8.0,
-                      "isClassToVaca":false
+                      "workHour": 8.0
                   },
                   "edit": true,
                   "classToVacaInfo":{
@@ -144,8 +142,7 @@ Here is a JSON representation of request.
                       "className": "夜班",
                       "startTime": "1600",
                       "endTime": "2130",
-                      "workHour": 8.0,
-                      "isClassToVaca":false
+                      "workHour": 8.0
                   },
                   "edit": true,
                   "classToVacaInfo":{
