@@ -75,6 +75,11 @@ Here is a JSON representation of request.
 | startDate | 考勤起日 |
 | endDate | 考勤迄日 |
 | totalHour | 部門排班時數上限 |
+| isClassToVaca | 是否為班轉假班別 |
+| vacationStartTime | 請假起始時間 |
+| vacationEndTime | 請假結束時間 |
+| specialDate | 特殊日期(會給日期) |
+| vacationOptionData | 班轉假選項(會給all，morning，afternoon) |
 
 ### HTTP Response when Successful
 ```json
@@ -121,9 +126,16 @@ Here is a JSON representation of request.
                       "className": "夜班",
                       "startTime": "1600",
                       "endTime": "2130",
-                      "workHour": 8.0
+                      "workHour": 8.0,
+                      "isClassToVaca":false
                   },
-                  "edit": true
+                  "edit": true,
+                  "classToVacaInfo":{
+                      "vacationStartTime":"1600",
+                      "vacationEndTime":"1800",
+                      "specialDate":"",
+                      "vacationOptionData":""
+                  }
                },
                {
                   "date":"20230302",
@@ -132,20 +144,16 @@ Here is a JSON representation of request.
                       "className": "夜班",
                       "startTime": "1600",
                       "endTime": "2130",
-                      "workHour": 8.0
+                      "workHour": 8.0,
+                      "isClassToVaca":false
                   },
-                  "edit": true
-               },
-               {
-                  "date":"20230303",
-                  "classInfo": {
-                      "classCode": "O",
-                      "className": "例假日",
-                      "startTime": "",
-                      "endTime": "",
-                      "workHour": 0.0
-                  },
-                  "edit": true
+                  "edit": true,
+                  "classToVacaInfo":{
+                      "vacationStartTime":"",
+                      "vacationEndTime":"",
+                      "specialDate":"",
+                      "vacationOptionData":"morning"
+                  }
                }
             ]
          }
