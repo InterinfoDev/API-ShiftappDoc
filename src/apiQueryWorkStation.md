@@ -68,6 +68,7 @@ Here is a JSON representation of request.
    },
    "responseBody":{
       "message":"查詢成功",
+      "title":"時段人力",
       "timeBlock":[
          {
             "time":"0800",
