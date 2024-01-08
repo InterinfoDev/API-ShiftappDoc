@@ -49,18 +49,13 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| gradeCode | 職等代號 |
-| gradeName | 職等名稱 |
-| PositionCode | 職稱代號 |
-| PositionName | 職稱名稱 |
-| typeCode | 類型代碼 |
-| typeName | 類型中文名稱 |
-| typeEName | 類型英文名稱 |
-| placeCode | 地點代碼 |
-| placeName | 地點中文名稱 |
-| placeEName | 地點英文名稱 |
-| possieCode | 職位代號 |
-| possieName | 職位名稱 |
+| visible | 是否顯示 |
+| positionOption | 職稱 |
+| gradeOption | 職級 |
+| possieOption | 職位 |
+| userTypeOption | 身分別 |
+| placeOption | 工作地點 |
+| employeesOption | 夥伴 |
 | resultMessage | 結果訊息 |
 | resultCode | 結果代號 |
 | message | 訊息 |
@@ -153,6 +148,23 @@ Here is a JSON representation of request.
         }
       ],
       "visible": true
+    },
+    "employeesOption": {
+        "id": "employeesOption",
+        "name": "夥伴",
+        "value": [
+            {
+                "code": "11203003",
+                "name": "測OOOp t******p",
+                "ename": ""
+            },
+            {
+                "code": "admin",
+                "name": "管O者 ",
+                "ename": ""
+            }
+        ],
+        "visible": true
     }
   }
 }
