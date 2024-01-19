@@ -73,6 +73,7 @@ Here is a JSON representation of request.
       "policy": ""
    }
 }
+```
 
 ### HTTP Response when Failed
 ```json
