@@ -63,6 +63,7 @@ Here is a JSON representation of request.
 ```
 
 ### HTTP Response when No Data
+```json
 {
    "responseHeader":{
       "resultMessage":"執行成功",
