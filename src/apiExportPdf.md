@@ -24,6 +24,7 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
+    "showType":"all"
     "companyId":"TW",
     "depNumber":495,
     "shiftYM":"202303",
@@ -57,6 +58,7 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
+| showType | 類型(code or name or all) |
 | companyId | 公司別 |
 | depNumber | 部門代碼 |
 | shiftYM | 排班年月 |
