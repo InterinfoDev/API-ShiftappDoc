@@ -47,7 +47,8 @@ Here is a JSON representation of request.
 ### requestBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
-| policy | 服務條款 |
+| regulationTerms | 應用程式使用規範 |
+| serviceTerms | 應用程式服務條款 |
 
 ### HTTP Response when Successful
 ```json
@@ -57,7 +58,8 @@ Here is a JSON representation of request.
       "resultCode":"200"
    },
    "responseBody":{
-      "policy": "xxx"
+      "regulationTerms": "xxx",
+      "serviceTerms": "xxx"
    }
 }
 ```
